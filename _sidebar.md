@@ -8,11 +8,10 @@
     * [01_Project manage](md/01_Project_manage.md)
         * [01_more](md/01_more.md)
         * [01_less](md/01_less.md)
-    * [02_CAN design](md/02_CAN_design.md)
-    * [03_3D printer](md/03_3D_printer.md)
-    * [04_Electric design](md/04_Electric_design.md)
-    * [05_Ardiuno application](md/05_Ardiuno_application.md)
-    * [06_Laser cutting](md/06_Laser_cutting.md)
-    * [07_PCB manifacture](md/07_PCB_manifacture.md)
-    * [08_CNC manufacture](md/08_CNC_manufacture.md)
+    * [02_Ardiuno](md/02_Ardiuno.md)
+    * [03_Interface application programming](md/03_Interface_application_programming.md)
+    * [04_Computer aided design](md/04_Computer_aided_design.md)
+    * [05_#D printing& laser cutter](md/05_3D_printing_and_laser_cutter.md)
+    * [06_Final presentation](md/06_Final_presentation.md)
+
 
