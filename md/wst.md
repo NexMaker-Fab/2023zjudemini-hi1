@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>头像圆形化处理</title>
 	<link rel="stylesheet" href="">
 	<style type="text/css" media="screen">
 			#d1{
@@ -20,7 +19,9 @@
 </head>
 <body>
 	<div id="d1">
-		<img src="http://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/48540923dd54564e2d86086eb8de9c82d0584f82.jpg" alt="">
+		<img src="https://github.com/wengstA/imageUploadService/blob/main/goodgood.jpg?raw=true" alt="">
 	</div>
 </body>
 </html>
+
+# 翁诗彤
