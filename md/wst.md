@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150" src="https://github.com/wengstA/fab_hw/blob/main/_media/wst.jpg?raw=true" alt="翁诗彤" style="border-radius:50%;">
+  <img width="150" src="https://gitee.com/vincentAWG/wstImageRepo/raw/master/wst.jpg" alt="翁诗彤" style="border-radius:50%;">
 </p>
 
 <h1 align="center">翁诗彤</h1>
