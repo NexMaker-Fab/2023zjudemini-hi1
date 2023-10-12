@@ -12,8 +12,20 @@
 ![Alt text](../_media/github_branchAndsource.png)
 - After setting the source and branch, you can see the website link in the setting page. 
 ![Alt text](../_media/website.png)
-# STEP 3: Edit code of the website
-- **Clone the repository** to your local computer.And use GitHub Desktop to manage the repository.You can use VSCode to edit the code.
+
+# STEP 3: Initial the repository
+- **Clone the repository** to your local computer.And use GitHub Desktop to manage the repository.
+- open the file folder of the repository in the terminal.  
+  ![Alt text](../_media/desktop_finder.png)
+- open the terminal in the file folder.
+  ![Alt text](../_media/terminal_file_folder.png)
+  - use command to initial the repository.
+  ```bash
+    npm i docsify-cli -g
+    docsify init ./docs
+    ```
+# STEP 4: Edit code of the website
+- You can use VSCode to edit the code.
 - ![Alt text](../_media/vscode.png)
 - You can also **preview** the markdown file in VSCode.
 ![Alt text](../_media/vscode_editor.png)
