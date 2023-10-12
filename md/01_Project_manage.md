@@ -18,3 +18,4 @@ After editing the code in VSCode, you can check the changes in the GitHub Deskto
 Every time after push the code, the website will be updated automatically. And you can check the status of the action in the action tap.If the action is failed, you can check the error message in the log.
 ![Alt text](../_media/action_status.png)
 
+![Alt text](image.png)
