@@ -6,8 +6,6 @@
     * [赵翠娜](md/zcn.md)
 * Demo&API
     * [01_Project manage](md/01_Project_manage.md)
-        * [01_more](md/01_more.md)
-        * [01_less](md/01_less.md)
     * [02_Ardiuno](md/02_Ardiuno.md)
     * [03_Interface application programming](md/03_Interface_application_programming.md)
     * [04_Computer aided design](md/04_Computer_aided_design.md)
