@@ -36,3 +36,41 @@ Every time after push the code, the website will be **updated automatically**. A
 - After commit all the changes, you can push the code to the GitHub.
 ![Alt text](../_media/push_img.png)
 
+# Dtails of the code
+## Set the sidebar and navigation bar
+- You can set the sidebar in the _sidebar.md file.
+  ```markdown
+  * [title](filepath)
+  ```
+- set the navigation bar in the _navbar.md file.
+  ```markdown
+  * [title](filepath)
+  ```
+## Set the cover page
+- add coverpage: true in the index.html file.
+  ```html
+  <script>
+    window.$docsify = {
+      coverpage: true,
+    }
+  </script>
+  ```
+-  edit the cover page in the[ _coverpage.md](https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_coverpage.md) file.
+
+## Set the personal Introduce page with html
+```html
+<p align="center">
+  <img width="150" src="path" alt="name" style="border-radius:50%;">
+</p>
+
+<h1 align="center">name</h1>
+
+<p align="center">
+self introduction
+</p>
+```
+## Add Video in the website
+```html
+<iframe src=[url] width="640" height="480" frameborder="0" scrolling="no"></iframe>
+```
+
