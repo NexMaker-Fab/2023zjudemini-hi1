@@ -18,23 +18,18 @@ Software Engineering, Data Science, AI
 ## Education
 ### University Name (Year Started - Year Ended)
 - **Degree**: Bachelor of Science in Computer Science
-- **Thesis**: Sound Event Detection
+- **Thesis**: Sound Event Detection, Speech Resynthesis, Smart agriculture
 ### School Name (Year Started - Year Ended)
 South China Agricultural University (2019 - 2023)
 
 
-## Honor
-- Honor or award 1
-- Honor or award 2
-... add as many as you like ...
-
 ## Works
-- **Project Name**: Brief description with [link to project](#) if applicable.
-- **Another Project/Work Name**: Brief description with [link to project](#).
+**Temporal Sound Event Analysis for Pig Health Assessment**: 
+- Pioneered the design of a dual-stream feature analysis algorithm for smart agriculture, utilizing spectral data and spectrograms.
+- Developed a sound event detection platform tailored for various livestock sounds.
+- Handled vast amounts of research data: preprocessing, cleaning, statistical analysis, and storage to ensure high-quality data for modeling.
 
-... add as many as you like ...
-
-<p align="center">
+<p align="left">
   <a href="https://wengsta.github.io/" target="_blank"><img src="../_media/github_icon.jpg" alt="GitHub" width="20">Github Link</a>
   &nbsp;
 </p>
