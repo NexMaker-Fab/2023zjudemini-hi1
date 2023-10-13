@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150" src="../_media/wst.jpg" alt="翁诗彤" style="border-radius:50%;">
+  <img width="150" src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/wst.jpg?raw=true" alt="翁诗彤" style="border-radius:50%;">
 </p>
 
 <h1 align="center">翁诗彤</h1>
