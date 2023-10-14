@@ -36,10 +36,10 @@ Interaction Design, User Experience Design， Product Design.
 - **Achievements**: Participated in more than ten performances on and off campus
 
 ## Honor
-- Honor or award 1：National silver prize for the Challenge Cup.
-- Honor or award 2：Four national first prizes for the design of ocean-going vessels.
-- Honor or award 3：Second Prize of Shandong Province Industrial Design Competition
-- Honor or award 4：Outstanding Individual Award, College of Engineering, Ocean University of China
+- National silver prize for the Challenge Cup.
+- Four national first prizes for the design of ocean-going vessels.
+- Second Prize of Shandong Province Industrial Design Competition
+- Outstanding Individual Award, College of Engineering, Ocean University of China
 
 ## Works
 - **Project Name**: Underwater glider based on jellyfish morphology simulation
