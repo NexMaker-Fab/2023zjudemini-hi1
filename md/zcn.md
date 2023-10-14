@@ -34,8 +34,8 @@ Use lnteraction , User Experience，Sports Rehabilitation,Industrial Design
 
 
 ## Works
-- **Portable Multifunctional sterilizer**: This is an epidemic prevention product for the post-epidemic era. 
-- **Automatic dispending smart pill box**:
+- **Portable Multifunctional sterilizer**
+- **Automatic dispending smart pill box**
 - **Greenhouse intelligent inspection robot**
 - **Grass grid automatic paving machine**
 
