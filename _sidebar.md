@@ -4,7 +4,7 @@
     * [叶润](md/yr.md)
     * [张春旭](md/zcx.md)
     * [赵翠娜](md/zcn.md)
-* [Demo&API](md/about_us11.md)
+* Demo&API
     * [01_Project manage](md/01_Project_manage.md)
     * [02_CAD](md/02_CAD.md)
     * [03_Interface application programming](md/03_Interface_application_programming.md)
