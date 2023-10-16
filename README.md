@@ -8,4 +8,4 @@
 - [翁诗彤](wst.md)
 - [赵翠娜](zcn.md)
 
-![Group image](../_media/group.png)
+![Group image](/_media/group.png)
