@@ -47,7 +47,7 @@ In this example, bolted connections inside the device are constructed through BO
 ![final_effect](../_media/pro2_CAD/final_effect.gif)
 
 # 6. Mechanical Drawing
-![Alt text](../_media/pro2_CAD/engineer.png)
+![Alt text](../_media/pro2_CAD/engineer.jpg)
 
 
 # 7. Other CAD Software
