@@ -47,7 +47,7 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 工程制图（张春旭）
 
 
-# 7）Other CAD Software
+# 7. Other CAD Software
 ## Creo Parametric：
 PTC’s developers created Creo Parametric as a sound foundation software that allows users the ability to expand deeper functionality with each component. As your products become more complex in its engineering, Creo offers expanded capabilities to meet your requirements. Every product isn’t made equal and your 3D CAD solution shouldn’t be either.
 Creo Parametric provides the broadest range of powerful yet flexible CAD 3D modeling software capabilities to accelerate the design of parts and assemblies. With Creo and its extensions, you’ll have access to technologies such as:

@@ -1,4 +1,16 @@
-# 01_Project_manage
+<style>
+    .custom-title {
+        font-family: "Arial", sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        padding: 10px 0;
+        color: #EFEFEF;
+        border-bottom: 3px solid #FF6347;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="custom-title">Project Manage</div>
 
 # STEP 1: Prepare for the project
 - **Git**:version control system that allows multiple people to work on a project at the same time without interfering with each other’s work. 
