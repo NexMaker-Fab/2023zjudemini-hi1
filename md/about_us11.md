@@ -50,14 +50,9 @@ h1 {
     margin-top: 20px;
 }
 
-
 </style>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-</head>
+
 <body>
     <div class="container">
         <img src="../_media/group.png" alt="Image" class="image">
