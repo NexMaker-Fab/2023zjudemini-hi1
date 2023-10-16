@@ -7,7 +7,7 @@
     font-family: 'Arial', sans-serif;
 }
 
-.container {
+.container11 {
     position: relative;
     height: 100vh; /* 使用视口单位，确保容器占据整个视口高度 */
     background-color: #000;
@@ -17,7 +17,7 @@
     padding: 20px; /* 为了确保内容不会贴在屏幕边缘，可以添加一些内边距 */
 }
 
-.image {
+.image11 {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,7 +26,7 @@
     opacity: 0.2; /* 可调整这个值来改变图片的透明度 */
 }
 
-.content {
+.content22 {
     z-index: 1;
     width: 50%; /* 调整这个值可以改变文本区域的宽度 */
     background-color: rgba(255, 255, 255, 0.7); /* 这是一个半透明的背景色 */
@@ -54,9 +54,9 @@ h1 {
 <html lang="en">
 
 <body>
-    <div class="container">
-        <img src="../_media/group.png" alt="Image" class="image">
-        <div class="content">
+    <div class="container11">
+        <img src="../_media/group.png" alt="Image" class="image11">
+        <div class="content22">
             <h1>About us</h1>
             <p class="woohoo">Hello!! Here is Fivevolution! Our team is a 23-grade graduate student of industrial design from Polytechnic Institute, Zhejiang University.</p>
             <p class="description">Our team consists of five people with professional backgrounds in industrial design, machinery, Computer science and technology, etc., who work hard together, learn from each other, and look forward to making the coolest things！</p>
