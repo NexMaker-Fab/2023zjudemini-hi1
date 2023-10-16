@@ -11,4 +11,4 @@
 - User-Centric
 
 [GitHub](https://github.com/wengstA/fab_hw)
-[Get Started](https://wengsta.github.io/fab_hw/#/md/about_us)
+[Get Started](https://nexmaker-fab.github.io/2023zjudemini-hi1/#/md/about_us)
