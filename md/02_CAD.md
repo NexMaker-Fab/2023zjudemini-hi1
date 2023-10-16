@@ -25,7 +25,8 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 
 
 # 2. Modeling Showcase
-设计源文件在fusion 360的 zju2023》Zjumini2023-1》叶润 文件夹里，放后两个即可
+<iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e0c8b0367f72629bd?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e1571c0510c56f181?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
 # 3. Modeling Procedure
@@ -58,7 +59,7 @@ Creo Parametric provides the broadest range of powerful yet flexible CAD 3D mode
 - Additive manufacturing
 -  Augmented reality
 <p align="left">
-  <a href="https://www.ptc.com/en/products/creo/parametric" target="_blank"><img src="../_media/pro2_CAD/logo/ptc.png" alt="ptc" width="100"></a>
+  <a href="https://www.ptc.com/en/products/creo/parametric" target="_blank"><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro2_CAD/logo/ptc.png?raw=true" alt="ptc" width="100"></a>
   &nbsp;
 </p>
 
@@ -67,7 +68,7 @@ Creo Parametric provides the broadest range of powerful yet flexible CAD 3D mode
 SolidWorks is a solid modeling computer-aided design (CAD) and computer-aided engineering (CAE) computer program that runs on Microsoft Windows. SolidWorks is published by Dassault Systèmes.
 Like that, Solidworks is also knownas "DSS Solidworks". DSS means the Dassault Systems, the developer of this CAD software. This is CADsoftware, which helps to create 2D or 3D solid models without any complexity, faster and in the costeffective way. The main advantage of the solid modeler is that very easy to use, simple graphics userinterface and much more friendly, as compared with other CAD solid modeling softwares such as Creo PTECatia etc. lt contains Solid part modeling, Assembly, Motion, Simulation, Toolbox, ToolAnalyst, CircuteWorks, PhotoView 360 ScanTo3D, e-drawings and DWG editor.
 <p align="left">
-  <a href="https://www.solidworks.com/" target="_blank"><img src="../_media/pro2_CAD/logo/solidworks.png" alt="ptc" width="200" ></a>
+  <a href="https://www.solidworks.com/" target="_blank"><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro2_CAD/logo/solidworks.png?raw=true" alt="ptc" width="200" ></a>
   &nbsp;
 </p>
 
