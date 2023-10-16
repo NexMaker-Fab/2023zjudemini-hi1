@@ -19,7 +19,7 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 
 - Design and engineer products how you want to ensure aesthetics, form, fit and function
 
-- Engineer, design and create anything with comprehensive electronics and PCB design tools
+- Engineer, design and create anything with comprsehensive electronics and PCB design tools
 
 - Save time and money and get quality parts out the door faster
 
@@ -36,9 +36,11 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 ![step5](../_media/pro2_CAD/S5.gif)
 ![step6](../_media/pro2_CAD/S6.gif)
 # 4. The plugin of the Fusion 360
-插件动画GIF（李庆龄、赵翠娜）
+**BOLT** is a plug-in in Fusion 360 that can construct bolts inside the model by customizing parameters.
 
 
+![plugin showing case](../_media/pro2_CAD/plugin_effect.gif)
+In this example, bolted connections inside the device are constructed through BOLT inserts.
 # 5. Motion Animation Procedure
 ![step7](../_media/pro2_CAD/S7.gif)
 ![final_effect](../_media/pro2_CAD/final_effect.gif)
@@ -55,9 +57,17 @@ Creo Parametric provides the broadest range of powerful yet flexible CAD 3D mode
 -  Real-time simulation
 - Additive manufacturing
 -  Augmented reality
+<p align="left">
+  <a href="https://www.ptc.com/en/products/creo/parametric" target="_blank"><img src="../_media/pro2_CAD/logo/ptc.png" alt="ptc" width="100"></a>
+  &nbsp;
+</p>
+
 
 ## SolidWorks
 SolidWorks is a solid modeling computer-aided design (CAD) and computer-aided engineering (CAE) computer program that runs on Microsoft Windows. SolidWorks is published by Dassault Systèmes.
 Like that, Solidworks is also knownas "DSS Solidworks". DSS means the Dassault Systems, the developer of this CAD software. This is CADsoftware, which helps to create 2D or 3D solid models without any complexity, faster and in the costeffective way. The main advantage of the solid modeler is that very easy to use, simple graphics userinterface and much more friendly, as compared with other CAD solid modeling softwares such as Creo PTECatia etc. lt contains Solid part modeling, Assembly, Motion, Simulation, Toolbox, ToolAnalyst, CircuteWorks, PhotoView 360 ScanTo3D, e-drawings and DWG editor.
-
+<p align="left">
+  <a href="https://www.solidworks.com/" target="_blank"><img src="../_media/pro2_CAD/logo/solidworks.png" alt="ptc" width="200" ></a>
+  &nbsp;
+</p>
 
