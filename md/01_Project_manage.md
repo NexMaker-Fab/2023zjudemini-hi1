@@ -19,13 +19,24 @@
 - **Nodejs**:JavaScript engine.
 - **Fontend Language**:MarkDown, HTML, CSS, and JavaScript
 
-# STEP 2: Depoly the repository
+# STEP 2: Create a repository
+- **Create a new repository** in the GitHub.
+- ![Alt text](../_media/create_repo.png)
+- ![Alt text](../_media/create_repo2.png)
+
+# STEP 3: Clone the repository to the local computer
+
+- **Clone the repository** to your local computer.And use GitHub Desktop to manage the repository.
+- ![Alt text](../_media/clone_repo1.png)
+- ![Alt text](../_media/copy_url.png)
+
+# STEP 4: Depoly the repository
 - **Ensure Source and Branch have been setting**
 ![Alt text](../_media/github_branchAndsource.png)
 - After setting the source and branch, you can see the website link in the setting page. 
 ![Alt text](../_media/website.png)
 
-# STEP 3: Initial the repository
+# STEP 5: Initial the repository
 - **Clone the repository** to your local computer.And use GitHub Desktop to manage the repository.
 - open the file folder of the repository in the terminal.  
   ![Alt text](../_media/desktop_finder.png)
@@ -36,7 +47,7 @@
     npm i docsify-cli -g
     docsify init ./docs
     ```
-# STEP 4: Edit code of the website
+# STEP 6: Edit code of the website
 - You can use VSCode to edit the code.
 - ![Alt text](../_media/vscode.png)
 - You can also **preview** the markdown file in VSCode.
