@@ -37,7 +37,7 @@ Human - Computer Interaction, Design Education, Industrial Design
 
 ## Works
 <p align="left">
-  <a href="https://www.red-dot.org/zh/project/wangfeng-cookware-series-62030applicable" target="_blank"><img src="../_media/reddot_ig.png" alt="GitHub" width="30">Wangfeng Cookware Series</a>
+  <a href="https://www.red-dot.org/zh/project/wangfeng-cookware-series-62030applicable" target="_blank"><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/reddot_ig.png?raw=true" alt="" width="30">Wangfeng Cookware Series</a>
   &nbsp;
 </p>
 

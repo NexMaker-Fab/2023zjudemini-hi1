@@ -30,7 +30,7 @@ South China Agricultural University (2019 - 2023)
 - Handled vast amounts of research data: preprocessing, cleaning, statistical analysis, and storage to ensure high-quality data for modeling.
 
 <p align="left">
-  <a href="https://wengsta.github.io/" target="_blank"><img src="../_media/github_icon.jpg" alt="GitHub" width="20">Github Link</a>
+  <a href="https://wengsta.github.io/" target="_blank"><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/github_icon.jpg?raw=true" alt="GitHub" width="20">Github Link</a>
   &nbsp;
 </p>
 
