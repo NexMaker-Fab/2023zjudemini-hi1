@@ -69,7 +69,7 @@ Every time after push the code, the website will be **updated automatically**. A
   ```
 -  edit the cover page in the[ _coverpage.md](https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_coverpage.md) file.
 
-## Set the personal Introduce page with html
+## Set the personal Introduction page with html
 ```html
 <p align="center">
   <img width="150" src="path" alt="name" style="border-radius:50%;">
