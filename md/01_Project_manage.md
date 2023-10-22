@@ -52,12 +52,20 @@
 - ![Alt text](../_media/vscode.png)
 - You can also **preview** the markdown file in VSCode.
 ![Alt text](../_media/vscode_editor.png)
-- After editing the code in VSCode, you can check the changes in the GitHub Desktop.And then you can **commit** the changes.And remember to push the code to the GitHub.
+
+# STEP 7: Synchronizing code to GitHub
+- After editing the code in VSCode, you can check the changes in the GitHub Desktop.And then you can **commit** the changes. *In Git, the commit process records changes to the repository by capturing a snapshot of the current state of the working directory.*
 ![Alt text](../_media/commit_pages.png)
+
+- Before pushing the code to the GitHub, you need to **fetch** and **pull** the code from the GitHub. It is aim to ensure that the code in the local computer is the latest version.
+![Alt text](../_media/fetch_code.png)
+![Alt text](../_media/pull_code.png)
+- Last, push the code to the GitHub.
+![Alt text](../_media/push_img.png)
+
 Every time after push the code, the website will be **updated automatically**. And you can check the status of the action in the action tap.If the action is failed, you can check the error message in the log.
 ![Alt text](../_media/action_status.png)
-- After commit all the changes, you can push the code to the GitHub.
-![Alt text](../_media/push_img.png)
+
 
 # Dtails of the code
 ## Set the sidebar and navigation bar
