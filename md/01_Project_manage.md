@@ -60,7 +60,7 @@
 - Before pushing the code to the GitHub, you need to **fetch** and **pull** the code from the GitHub. It is aim to ensure that the code in the local computer is the latest version.
 ![Alt text](../_media/fetch_code.png)
 ![Alt text](../_media/pull_code.png)
-- Last, push the code to the GitHub.
+- Last, **push** the code to the GitHub.
 ![Alt text](../_media/push_img.png)
 
 Every time after push the code, the website will be **updated automatically**. And you can check the status of the action in the action tap.If the action is failed, you can check the error message in the log.
