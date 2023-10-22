@@ -1,4 +1,4 @@
-
+# A file to manage the content in repo
 # # !/bin/bas
 # for file in md/*.md; do
 #   title=$(basename "$file" .md)
