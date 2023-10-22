@@ -2,10 +2,10 @@
   <img width="150" src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/wst.jpg?raw=true" alt="翁诗彤" style="border-radius:50%;">
 </p>
 
-<h1 align="center">Weng Shitong</h1>
+<h1 align="center">Shitong Weng</h1>
 
 <p align="center">
-  大家好我是翁诗彤，本科研究方向是AI-声音事件检测，平时喜欢睡觉吃饭看电影，工设newbie，希望大家多多指教！
+  Hello everyone! I'm Shitong Weng. My undergraduate research focused on AI-audio event detection. In my spare time, I enjoy sleeping, eating, and watching movies. I'm a newbie in industrial design. Looking forward to learning from all of you!
 
 ## Field
 Software Engineering, Data Science, AI
