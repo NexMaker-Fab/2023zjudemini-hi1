@@ -50,19 +50,17 @@
 ![Alt text](../_media/pro03_3d_cutter/STEP02.gif)
 3.	Polish the model for better quality of the surface.
 ![Alt text](../_media/pro03_3d_cutter/STEP03.gif)
-4.	Assemble the parts.
+4.	Assemble the parts
 ![Alt text](../_media/pro03_3d_cutter/STEP05.gif)
 5.	The result of the 3D print model.
  ![Alt text](../_media/pro03_3d_cutter/3dprint_result.png)
 
----
 # Laser Cutting
 ## Power and Speed Test
 1.	The software sets the power and speed of the test pattern hierarchically.
  ![Alt text](../_media/pro03_3d_cutter/cut_square.png)
 2.	Cutting test with machine.
-![Alt text](../_media/pro03_3d_cutter/cutting_test.png)
- 
+ ![Alt text](../_media/pro03_3d_cutter/cutting_test.png)
 3.	Two results of the laser cutting.
 ![Alt text](../_media/pro03_3d_cutter/cut_result.png)
  
