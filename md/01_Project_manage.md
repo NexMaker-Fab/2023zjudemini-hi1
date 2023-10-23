@@ -117,9 +117,22 @@ Similarity , the `_navbar.md` file defines the structure and links of the docume
     * [Reference](https://blog.csdn.net/Mark_md/article/details/121457115)
     * [Polytechnic Institute, ZJU](https://pi.zju.edu.cn/_s991/main.psp)
   ```
+Sidebar and navigation bar will be displayed in the website as follows.
+![Alt text](../_media/pro01_manage/side_nav_bar_effect.png)
 ## Set the cover page
 Cover page is the first page of the website. You can set the cover page in the _coverpage.md file.
-  ```markdown
+
+add coverpage: true in the index.html file.
+  ```html
+  <script>
+    window.$docsify = {
+      coverpage: true,
+    }
+  </script>
+  ```
+ edit the cover page in the[ _coverpage.md](https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_coverpage.md) file.
+
+   ```markdown
 <!-- _coverpage.md -->
 
 ![logo](/_media/logo-removebg-preview.png)
@@ -135,17 +148,9 @@ Cover page is the first page of the website. You can set the cover page in the _
 [GitHub](https://github.com/NexMaker-Fab/2023zjudemini-hi1)
 [Get Started](https://nexmaker-fab.github.io/2023zjudemini-hi1/#/md/about_us)
   ```
-- add coverpage: true in the index.html file.
-  ```html
-  <script>
-    window.$docsify = {
-      coverpage: true,
-    }
-  </script>
-  ```
--  edit the cover page in the[ _coverpage.md](https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_coverpage.md) file.
-
-## Set the personal Introduction page with html
+Cover page will be displayed in the website as follows.
+![Alt text](../_media/pro01_manage/coverage.png)
+## Personal Introduction page template
 ```html
 <p align="center">
   <img width="150" src="path" alt="name" style="border-radius:50%;">
@@ -156,9 +161,35 @@ Cover page is the first page of the website. You can set the cover page in the _
 <p align="center">
 self introduction
 </p>
+## Field
+
+## Skills
+
+## Education
+
+### School Name (Year Started - Year Ended)
+
+## Experiences
+### Company Name / Position (Year Started - Year Ended)
+- **Role**: 
+- **Achievements**: 
 ```
 ## Add Video in the website
 ```html
 <iframe src=[url] width="640" height="480" frameborder="0" scrolling="no"></iframe>
+
+...
 ```
+
+# PROBLEMS & SOLUTIONS
+## Problem 1: Image cannot be displayed
+
+- **Problem Description**: The image cannot be displayed in the website.
+  
+- **Solution**: 
+  - Check the path of Image, and ensure the image is in the _media folder.U can use the relative path to set the image, which can be copied from the VSCode.
+  ![Alt text](../_media/pro01_manage/copy_path_vscode.png)
+  - Copy the image url in the GitHub and paste it in the markdown file.
+    ![Alt text](../_media/pro01_manage/copy_img_url.png)
+
 
