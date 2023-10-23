@@ -44,16 +44,21 @@
 **Result:** Better quality on the second print
 
 ### Test model printing and assemble it
-1.	The process of printing.
+1.	The process of printing.  
 ![Alt text](../_media/pro03_3d_cutter/test_fusion_model.png)
-2.	Remove the supporting structure of the printed model.
+
+2.	Remove the supporting structure of the printed model.  
 ![Alt text](../_media/pro03_3d_cutter/STEP02.gif)
-3.	Polish the model for better quality of the surface.
+
+3.	Polish the model for better quality of the surface.  
 ![Alt text](../_media/pro03_3d_cutter/STEP03.gif)
-4.	Assemble the parts
+
+4.	Assemble the parts  
 ![Alt text](../_media/pro03_3d_cutter/STEP05.gif)
-5.	The result of the 3D print model.
- ![Alt text](../_media/pro03_3d_cutter/3dprint_result.png)
+
+5.	The result of the 3D print model.  
+![Alt text](../_media/pro03_3d_cutter/3dprint_result.png)
+
 
 # Laser Cutting
 ## Power and Speed Test
