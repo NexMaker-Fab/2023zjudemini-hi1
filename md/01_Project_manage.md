@@ -21,14 +21,14 @@
 
 # STEP 2: Create a repository
 - **Create a new repository** in the GitHub.
-- ![Alt text](../_media/pro01_manage/create_repo.png)
-- ![Alt text](../_media/pro01_manage/create_repo2.png)
+![Alt text](../_media/pro01_manage/create_repo.png)
+![Alt text](../_media/pro01_manage/create_repo2.png)
 
 # STEP 3: Clone the repository to the local computer
 
 - **Clone the repository** to your local computer.And use GitHub Desktop to manage the repository.
-- ![Alt text](../_media/pro01_manage/clone_repo1.png)
-- ![Alt text](../_media/pro01_manage/copy_url.png)
+![Alt text](../_media/pro01_manage/clone_repo1.png)
+![Alt text](../_media/pro01_manage/copy_url.png)
 
 # STEP 4: Depoly the repository
 - **Ensure Source and Branch have been setting**
@@ -118,6 +118,23 @@ Similarity , the `_navbar.md` file defines the structure and links of the docume
     * [Polytechnic Institute, ZJU](https://pi.zju.edu.cn/_s991/main.psp)
   ```
 ## Set the cover page
+Cover page is the first page of the website. You can set the cover page in the _coverpage.md file.
+  ```markdown
+<!-- _coverpage.md -->
+
+![logo](/_media/logo-removebg-preview.png)
+
+# 基因重组 
+
+> Group Portfolio
+
+- Inovativation
+- Knowledge
+- User-Centric
+
+[GitHub](https://github.com/NexMaker-Fab/2023zjudemini-hi1)
+[Get Started](https://nexmaker-fab.github.io/2023zjudemini-hi1/#/md/about_us)
+  ```
 - add coverpage: true in the index.html file.
   ```html
   <script>

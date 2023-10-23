@@ -1,8 +1,8 @@
 # About us
-**组长** :
+**Team Leader** :
 - [Qingling Li](https://nexmaker-fab.github.io/2023zjudemini-hi1/#/md/lql)
 
-**成员**:
+**Team mambers**:
 - [Run Ye](https://nexmaker-fab.github.io/2023zjudemini-hi1/#/md/yr)
 - [Chunxu Zhang](https://nexmaker-fab.github.io/2023zjudemini-hi1/#/md/zcx)
 - [Shitong Weng](https://nexmaker-fab.github.io/2023zjudemini-hi1/#/md/wst)

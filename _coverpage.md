@@ -4,7 +4,7 @@
 
 # 基因重组 I
 
-> 小组作品集
+> Group Portfolio
 
 - Inovativation
 - Knowledge
