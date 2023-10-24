@@ -187,9 +187,16 @@ self introduction
 - **Problem Description**: The image cannot be displayed in the website.
   
 - **Solution**: 
-  - Check the path of Image, and ensure the image is in the _media folder.U can use the relative path to set the image, which can be copied from the VSCode.
+  **1.  **Check the path of Image, and ensure the image is in the _media folder.U can use the relative path to set the image, which can be copied from the VSCode.
   ![Alt text](../_media/pro01_manage/copy_path_vscode.png)
-  - Copy the image url in the GitHub and paste it in the markdown file.
+  **2.  **Copy the image url in the GitHub and paste it in the markdown file.
     ![Alt text](../_media/pro01_manage/copy_img_url.png)
+  
+  ## Problem 2: The website cannot be updated automatically
+  - **Problem Description**: The website cannot be updated automatically after pushing the code to the GitHub. In the action tap, the status of the action is failed.
+  - **Solution**:
+  Click Build error to see the error message in the log.
+  - ![Alt text](image-2.png)
+  - ![Alt text](image-1.png)
 
 
