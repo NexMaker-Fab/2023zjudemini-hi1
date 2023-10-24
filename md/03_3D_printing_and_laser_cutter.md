@@ -74,11 +74,11 @@
 
 | Speed/Power | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 |
 |-------------|----|----|----|----|----|----|----|----|----|
-| 10          | ×  | <span style="background-color: yellow">√</span>   | √  | √  | √  | √  | √  | √  | √  |
-| 20          | ×  | ×  | <span style="background-color: yellow">√</span>  | √  | √  | √  | √  | √  | √  |
-| 30          | ×  | ×  | <span style="background-color: yellow">√</span>  | √  | √  | √  | √  | √  | √  |
-| 40          | ×  | ×  | ×  | ×  |<span style="background-color: yellow">√</span>   | √  | √  | √  | √  |
-| 50          | ×  | ×  | ×  | ×  | ×  | <span style="background-color: yellow">√</span>  | √  | √  | √  |
+| 10          | ×  | <span style="font-color: yellow">√</span>   | √  | √  | √  | √  | √  | √  | √  |
+| 20          | ×  | ×  | <span style="font-color: yellow">√</span>  | √  | √  | √  | √  | √  | √  |
+| 30          | ×  | ×  | <span style="font-color: yellow">√</span>  | √  | √  | √  | √  | √  | √  |
+| 40          | ×  | ×  | ×  | ×  |<span style="font-color: yellow">√</span>   | √  | √  | √  | √  |
+| 50          | ×  | ×  | ×  | ×  | ×  | <span style="font-color: yellow">√</span>  | √  | √  | √  |
 
 
 
