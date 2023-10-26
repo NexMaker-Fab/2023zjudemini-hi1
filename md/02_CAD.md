@@ -28,6 +28,7 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e0c8b0367f72629bd?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e1571c0510c56f181?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+# 3. First Sketch
 
 # 3. Modeling Procedure
 ![step1](../_media/pro2_CAD/S1.gif)
@@ -39,18 +40,48 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 # 4. The plugin of the Fusion 360
 **BOLT** is a plug-in in Fusion 360 that can construct bolts inside the model by customizing parameters.
 
-
+**How To use:**
+- 1.Click the plugin button and choose the SpurGear as the plugin.
+- 2.Adjust the parameter of the plugin to make a gear.
+![plugin ](../_media/pro2_CAD/plugins.gif)
 ![plugin showing case](../_media/pro2_CAD/plugin_effect.gif)
 In this example, bolted connections inside the device are constructed through BOLT inserts.
 # 5. Motion Animation Procedure
 ![step7](../_media/pro2_CAD/S7.gif)
 ![final_effect](../_media/pro2_CAD/final_effect.gif)
 
-# 6. Mechanical Drawing
+# 6. Joint
+![Alt text](../_media/pro2_CAD/joint.gif)
+*Powered by PTC. 
+
+# 7. Simple Parameter Design
+![Alt text](../_media/pro2_CAD/parameter_design.jpg)
+```
+Logo(50) ;
+
+module Logo(size=50,  $fn=100) {
+    hole = size/4;
+    cylinderHeight = size * 2;
+
+    difference() {
+        sphere(d=size) ;
+
+        cylinder(d=hole, h=cylinderHeight, center=true);
+
+        #rotate([90，0，01)
+        cylinder(d=hole, h=cylinderHeight, center=true);
+        rotate([0，45,0])
+        cylinder(d=hole, h=cylinderHeight, center=true);
+        }
+}
+
+echo(version=version());
+```
+# . Mechanical Drawing
 ![Alt text](../_media/pro2_CAD/engineer.jpg)
+*Powered by PTC. 
 
-
-# 7. Other CAD Software
+# 8. Other CAD Software
 ## Creo Parametric：
 PTC’s developers created Creo Parametric as a sound foundation software that allows users the ability to expand deeper functionality with each component. As your products become more complex in its engineering, Creo offers expanded capabilities to meet your requirements. Every product isn’t made equal and your 3D CAD solution shouldn’t be either.
 Creo Parametric provides the broadest range of powerful yet flexible CAD 3D modeling software capabilities to accelerate the design of parts and assemblies. With Creo and its extensions, you’ll have access to technologies such as:
