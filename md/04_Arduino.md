@@ -29,7 +29,7 @@
 <div class="custom-title">Arduino</div>
 
 <h1>
-        <img src="../_media/pro4_Arduino/open_source.png" alt="Open Source Icon" class="heading-icon">
+        <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro4_Arduino/open_source.png?raw=true" alt="Open Source Icon" class="heading-icon">
         Open Source
     </h1>
 
@@ -73,7 +73,7 @@ Open source licenses are licenses that allow software to be freely used, modifie
 ---
 
 <h1>
-        <img src="../_media/pro4_Arduino/arduino.png" alt="Arduino Icon Icon" class="heading-icon2">
+        <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro4_Arduino/arduino.png?raw=true" alt="Arduino Icon Icon" class="heading-icon2">
         Arduino
     </h1>
 
