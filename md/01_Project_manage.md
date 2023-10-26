@@ -195,7 +195,7 @@ self introduction
   ## Problem 2: The website cannot be updated automatically
   - **Problem Description**: The website cannot be updated automatically after pushing the code to the GitHub. In the action tap, the status of the action is failed.
   - **Solution**:
-  Click Build error to see the error message in the log.
+  Click Build error to see the error message in the log. And then you can find the reason of the error. In this case, the reason is that the theme of the website is wrongly set. Check offical document to see how a theme should be set [Github pages theme](https://pages.github.com/themes/). 
   - ![Alt text](image-2.png)
   - ![Alt text](image-1.png)
 
