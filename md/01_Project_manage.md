@@ -174,13 +174,42 @@ self introduction
 - **Role**: 
 - **Achievements**: 
 ```
-## Add Video in the website
+# How to write our firsr document (Coding method)
 ```html
+<!-- Header -->
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+<!-- Emphasis -->
+*italic* or _italic_
+**bold** or __bold__
+***bold and italic*** or ___bold and italic___
+<!-- Lists -->
+    <!-- Ordered Lists -->
+    1. First item
+    2. Second item
+    3. Third item
+    <!-- Unordered Lists -->
+    - Item 1
+    - Item 2
+        - Subitem 2.1
+        - Subitem 2.2
+<!-- Links -->
+[OpenAI's website](https://www.openai.com/)
+<!-- Images -->
+![Alt text for the image](URL_to_image.jpg)
+<!-- Code -->
+`code`
+<!-- Add Video -->
 <iframe src=[url] width="640" height="480" frameborder="0" scrolling="no"></iframe>
 
 ...
 ```
-
+# How to collaborator team
+[todo]
 # PROBLEMS & SOLUTIONS
 ## Problem 1: Image cannot be displayed
 

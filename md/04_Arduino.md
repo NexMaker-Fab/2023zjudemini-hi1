@@ -68,7 +68,18 @@ Open source licenses are licenses that allow software to be freely used, modifie
 1. [What is open source?](https://opensource.com/resources/what-open-source)
 2. [What is open hardware? ](https://opensource.com/resources/what-open-hardware)
 
+### Our Focusing Open Source Project
 
+**OpenPose** has represented the first real-time multi-person system to jointly detect human body, hand, facial, and foot keypoints (in total 135 keypoints) on single images.
+[Open Pose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+
+#### Why we choose OpenPose?(Keypoint we need)
+- 2D real-time multi-person keypoint detection
+- 3D real-time single-person keypoint detection:
+- Calibration toolbox
+- Single-person tracking for further speedup or visual smoothing.<br>
+  
+We would do a project aiming to detect the keypoints of human body and correct the posture of human body. Openpose is a good choice for us to do this project.
 
 ---
 
@@ -79,14 +90,67 @@ Open source licenses are licenses that allow software to be freely used, modifie
 
 ## What is Arduino?
 Open-source electronic prototyping platform enabling users to create interactive electronic objects.
-
+![Alt text](../_media/pro4_Arduino/arduino_board.jpg)
 ## How to develop Arduino?
-1. **Arduino IDE**: Arduino IDE is a cross-platform application that is written in functions from C and C++. It is used to write and upload programs to Arduino compatible boards, but also, with the help of 3rd party cores, other vendor development boards.
-2. **Edit on VSCode**: With Copilot and extension, VSCode could accelerate the development of Arduino.<br>
+### 1. **Arduino IDE**: 
+Arduino IDE is a cross-platform application that is written in functions from C and C++. It is used to write and upload programs to Arduino compatible boards, but also, with the help of 3rd party cores, other vendor development boards.
+   #### 1.1 Four Parts of Arduino IDE
+   ![Alt text](../_media/pro4_Arduino/arduino_ide.jpg)
+   - **Menu bar,** containing File menu, Edit menu, Program menu, Tools menu and Help menu;
+   - **Toolbar,** containing compile, upload, new program (sketch), open program (sketch), save program (sketch) and serial monitor (Serial Monitor);
+   - **Edit area,** writing program code area;
+   - **Status area,** display program compilation and upload information, if the program error will have error message.
+  
+#### 1.2 Configure Arduino IDE
+Arduino uses the serial port to download the code and store it in the internal flash, that is, to burn the program into the Arduino, a total of three steps are needed
+ - Select the **corresponding routine program**
+ - Select the **corresponding board**
+ - Configure the **download port** of the Arduino board.
+![Alt text](../_media/pro4_Arduino/arduino_connect.jpg)
+![Alt text](../_media/pro4_Arduino/arduino_connect1.jpg)
+  
+
+### 2. **Edit on VSCode**: With Copilot and extension, VSCode could accelerate the development of Arduino.<br>
 [Arduino CLI with Visual Studio Code on MacOS](https://medium.com/@thomas.kilmar/arduino-cli-with-visual-studio-code-on-macos-d2ad32ff0276)<br>
 [Mac configure Arduino VSCode enviroment](https://blog.csdn.net/a71468293a/article/details/117151920)
 ![](../media/pro4_Arduino/../../_media/pro4_Arduino/arduino_connect2.png)
 
+
+### 3. Arduino Coding Method
+Arduino programming uses a simplified version of the C++ language, and the development environment (IDE) provides a lot of built-in functions that abstract some of the complexities of microcontroller programming.
+
+Here's a basic structure of an Arduino sketch (program):
+```Arduino
+// Global variable and library declarations
+#include <LibraryName.h>  // Include any necessary libraries here
+
+int someVariable = 0;
+
+// Setup function: Runs once when the Arduino is powered on or reset
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);  // Set the built-in LED as an output
+  Serial.begin(9600);            // Initialize serial communication at 9600 bps
+}
+
+// Loop function: Runs repeatedly after the setup() function completes
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // Turn on the LED
+  delay(1000);                       // Wait for 1000 milliseconds (1 second)
+  digitalWrite(LED_BUILTIN, LOW);    // Turn off the LED
+  delay(1000);                       // Wait for another second
+}
+
+```
+1. **Library Inclusion:** Libraries expand the functionality of the Arduino. For instance, there are libraries for displays, sensors, motors, etc. The #include directive lets you include them.
+2. **Global Variables: **Variables declared outside of functions are global, and they can be accessed anywhere in the sketch.
+3. **setup() function:** This is executed once when the Arduino starts up. It's typically used for initialization tasks, like setting pin modes or starting serial communication.
+4. **loop() function:** After setup() completes, the loop() function runs repeatedly as long as the Arduino is powered. It's where the primary logic of your program will usually reside.
+5. **pinMode():** This function sets a digital pin as either INPUT or OUTPUT.
+6. **Serial.begin():** This starts serial communication, useful for sending data back to your computer.
+7. **digitalWrite():** This function sets a digital pin to either HIGH (usually 5V) or LOW (0V).
+8. **delay():** This halts the execution of the program for a specified amount of time (in milliseconds).
+
+Know more about Arduino programming, please refer to [Arduino Programming Turioals](https://www.arduino.cc/en/Tutorial/HomePage).
 ### Run water light program
 Produce a visual effect where LED1 (connected to pin 2) will light up first, then turn off, followed by LED2 (pin 3) lighting up and turning off, and then LED3 (pin 4) lighting up and turning off. This **sequence will repeat in a loop**, giving the appearance of a light "running" from LED1 to LED3.
 ```Arduino
@@ -116,7 +180,4 @@ void loop()
 
 ```
 
-<video width="320" height="240" controls>
-    <source src="../_media/pro4_Arduino/run_water_light.mp4" type="../_media/pro4_Arduino/run_water_light.mp4">
-Your browser does not support the video tag.
-</video>
+<iframe src="https://www.bilibili.com/video/BV19u4y1Y7yd/?vd_source=aa56712dff0b9d6ba1315b3e6a18c9e6#reply191894723408" width="640" height="480" frameborder="0" scrolling="no"></iframe>
