@@ -181,3 +181,24 @@ void loop()
 ```
 
 <iframe src="https://www.bilibili.com/video/BV19u4y1Y7yd/?vd_source=aa56712dff0b9d6ba1315b3e6a18c9e6#reply191894723408" width="640" height="480" frameborder="0" scrolling="no"></iframe>
+
+## Comparison Open Source Projects similar to Our Final Project
+**Human Posture Recognition and Analysis System**
+![Alt text](../_media/pro4_Arduino/similar_pro.png)
+
+**Product Description:** Through AI artificial intelligence and video image acquisition and analysis technology, the system utilizes the human skeletal key point model to identify and evaluate human posture, identify and record abnormalities in students' posture such as cervical vertebrae health, spinal health, pelvic health, etc., so as to provide students with a comprehensive digital portrait of their physical fitness and health.
+
+**Product features:** The system can perform real-time physical health analysis and support the instant presentation of students' physical health analysis reports. At the same time, the system integrates the human body morphology analysis system, which can carry out instant analysis of body shape and posture. It provides students with a complete management system for athletic ability and physical health.
+
+### Similarities with our work:
+1 Same use of human body recognition technology
+2 Also focuses on human health
+
+### Pros:
+1 The product recognizes a person's overall posture and can produce a more complete health assessment program
+2 Project is already developed and in production, product ecosystem is more robust
+
+### Disadvantages:
+1 The product has high space requirements and needs to be built on a professional site to be used
+2 The sensitivity of human posture recognition is low, and real-time recognition is not possible.
+3 Large-scale equipment is not easy to carry and maintain, which increases maintenance costs and is not conducive to green and sustainable development.
