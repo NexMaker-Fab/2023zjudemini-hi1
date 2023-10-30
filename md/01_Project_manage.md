@@ -210,6 +210,11 @@ self introduction
 ```
 # How to collaborator team
 [todo]
+
+# How we develop this website
+- we create a new [repository](https://github.com/wengstA/fab_hw) in the GitHub.
+- And we try to inital the docsify in the local computer. Then push the code to the GitHub. And see the website in the GitHub page.
+- As Everything runs well, we copied the code to the repository of the team.**(Keep the same file structure)** Also, there is another way, that is to [fork the repository](https://docs.github.com/articles/fork-a-repo) to the team repository.
 # PROBLEMS & SOLUTIONS
 ## Problem 1: Image cannot be displayed
 
