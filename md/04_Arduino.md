@@ -24,6 +24,18 @@
             width: 32px; /* You can adjust this based on the desired size of your icon */
             height: 24px;
         }
+    body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* 设置iframe的大小 */
+        iframe {
+            width: 80%;  /* 设置为页面宽度的80% */
+            height: 400px; 
+        }
 </style>
 
 <div class="custom-title">Arduino</div>
@@ -180,7 +192,7 @@ void loop()
 
 ```
 
-<iframe src="//player.bilibili.com/player.html?aid=917749743&bvid=BV19u4y1Y7yd&cid=1312213218&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=917749743&bvid=BV19u4y1Y7yd&cid=1312213218&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%"> </iframe>
 
 ## Comparison Open Source Projects similar to Our Final Project
 **Human Posture Recognition and Analysis System**
