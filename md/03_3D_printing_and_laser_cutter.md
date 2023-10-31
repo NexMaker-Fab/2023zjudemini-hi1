@@ -83,14 +83,13 @@
 4.	Statistics on cutting test results.
 
 
-
 | Speed/Power | 10 | 20 | 30 | 40 | 50 | 60 | 70 |
 |----------|----|----|----|----|----|----|----|
-| 10       | ×  | <span style="color: red">√</span> | √  | √  | √  | √  | √  |
-| 20       | ×  | ×  | <span style="color: red">√</span>  | √  | √  | √  | √  |
-| 30       | ×  | ×  | <span style="color: red">√</span>  | √  | √  | √  | √  |
-| 40       | ×  | ×  | ×  | <span style="color: red">√</span>  | √  | √  | √  |
-| 50       | ×  | ×  | ×  | ×  | ×  | <span style="color: red">√</span>  | √  |
+| 10       | ×  | <span style="color: red">√ | √  | √  | √  | √  | √  |
+| 20       | ×  | ×  | <span style="color: red">√  | √  | √  | √  | √  |
+| 30       | ×  | ×  | <span style="color: red">√  | √  | √  | √  | √  |
+| 40       | ×  | ×  | ×  | <span style="color: red">√  | √  | √  | √  |
+| 50       | ×  | ×  | ×  | ×  | ×  | <span style="color: red">√  | √  |
 
 
 
