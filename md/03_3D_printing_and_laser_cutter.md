@@ -24,17 +24,35 @@
   
     | model/Parameters     | nozzle temperature | platform temperature | fill density | base plate |
     |----------------------|--------------------|----------------------|--------------|------------|
-    | model 1              | 200℃              | 30℃                 | 15%         | enabled    |
+    | model 1              | 205℃              | 30℃                 | 15%         | enabled    |
     | <span style="color:red;">**model 2**             | <span style="color:red;">**220℃**              | <span style="color:red;">**50℃**                 | <span style="color:red;">**30**%         | <span style="color:red;">**Disable**    |
 
 (nozzle temperature 200°; platform temperature30℃；fill density 15%; base plate enabled)
 
- ![Alt text](../_media/pro03_3d_cutter/para1_1.gif)
- ![Alt text](../_media/pro03_3d_cutter/para1_2.gif)
- ![Alt text](../_media/pro03_3d_cutter/para1_3.gif)
+ <figure>
+  <img src="../_media/pro03_3d_cutter/para1_1.gif" alt="Slicing software import interface" style="width:100%">
+  <figcaption style="text-align:center;"> Slicing software import interface</figcaption>
+</figure>
+
+
+ <figure>
+  <img src="../_media/pro03_3d_cutter/para1_2.jpg" alt="Slice Import Preview" style="width:100%">
+  <figcaption style="text-align:center;"> Slice Import Preview</figcaption>
+</figure>
+
+<figure>
+  <img src="../_media/pro03_3d_cutter/para1_3.jpg" alt="Slice  Preview1" style="width:100%">
+  <figcaption style="text-align:center;"> Slice Preview 1</figcaption>
+</figure>
+
+<figure>
+  <img src="../_media/pro03_3d_cutter/para1_4.jpg" alt="Slice  Preview2" style="width:100%">
+  <figcaption style="text-align:center;"> Slice Preview 2</figcaption>
+</figure>
+
 - **Printing process**
  ![Alt text](../_media/pro03_3d_cutter/print1_1.gif)
-![Alt text](../_media/pro03_3d_cutter/print1_2.png)
+
 
 ### Second printing
 - **Parameters**
@@ -45,15 +63,40 @@
     | **<span style="color:red;">model 1</span>**              | **<span style="color:red;">200℃</span>**              | **<span style="color:red;">30℃</span>**                 | **<span style="color:red;">15%</span>**         | **<span style="color:red;">enabled</span>**    |
     | model 2              | 220℃              | 50℃                 | 30%         | Disable    |
 
- ![Alt text](../_media/pro03_3d_cutter/para2_1.gif)
+
+<figure>
+  <img src="../_media/pro03_3d_cutter/para2_1.jpg" alt="See the Slice Import Preview gif above for a detailed view of the interface" style="width:100%">
+  <figcaption style="text-align:center;"> See the Slice Import Preview gif above for a detailed view of the interface</figcaption>
+</figure>
+
 - **Printing process**
  ![Alt text](../_media/pro03_3d_cutter/print2_1.gif)
   ![Alt text](../_media/pro03_3d_cutter/print2_2.gif)
 ### Comparison of results between two printouts
-1. **First Time** (nozzle temperature 210°; fill density 15%; base plate enabled) 
-   ![Alt text](../_media/pro03_3d_cutter/3dresult1.jpg)
-2. **Second Time**(nozzle temperature 200°; filling density 20%; base plate not activated) 
-   ![Alt text](../_media/pro03_3d_cutter/3dresult2.jpg)
+
+1.	Parameters Comparison
+
+| model/Parameters     | nozzle temperature | platform temperature | fill density | base plate |
+|----------------------|--------------------|----------------------|--------------|------------|
+| model 1              | 205℃              | 30℃                 | 15%         | enabled    |
+| model 2             | 220℃              | 50℃                 | 30%         | Disable    |
+
+2. 3D Printing result Comparison
+    ①nozzle/ platform temperature comparison
+    <table align="center"><tr>
+    <td><img src="../_media/pro03_3d_cutter/3dresult1.jpg" width="300" height="200" border=0></td>
+    <td><img src="../_media/pro03_3d_cutter/3dresult2.jpg" width="300" height="200" border=0></td>
+    </tr></table>
+    ②fill density comparison
+    <table align="center"><tr>
+    <td><img src="../_media/pro03_3d_cutter/3dresult3.png" width="300" height="280" border=0></td>
+    <td><img src="../_media/pro03_3d_cutter/3dresult4.png" width="350" height="280" border=0></td>
+    </tr></table>
+    ③base plate comparison
+    <table align="center"><tr>
+    <td><img src="../_media/pro03_3d_cutter/3dresult5.png" width="300" height="200" border=0></td>
+    <td><img src="../_media/pro03_3d_cutter/3dresult6.jpg" width="300" height="200" border=0></td>
+    </tr></table>
 **Result:** Better quality on the second print
 
 ### Test model printing and assemble it
@@ -103,6 +146,36 @@
  ![Alt text](../_media/pro03_3d_cutter/cut_result3.png)
 
 ## Laser Cutting Practice
+### 0. Preparation
+<figure>
+  <img src="../_media/pro03_3d_cutter/pre_laser1.jpg" alt="Preparation step1" style="width:100%">
+  <figcaption style="text-align:center;"> Turn on the master switch</figcaption>
+</figure>
+<figure>
+  <img src="../_media/pro03_3d_cutter/pre_laser2.jpg" alt="Preparation step2" style="width:100%">
+  <figcaption style="text-align:center;"> Turn on the laser</figcaption>
+</figure>
+<figure>
+  <img src="../_media/pro03_3d_cutter/pre_laser3.jpg" alt="Preparation step3" style="width:100%">
+  <figcaption style="text-align:center;"> Access computer</figcaption>
+</figure>
+<figure>
+  <img src="../_media/pro03_3d_cutter/pre_laser4.jpg" alt="Preparation step4" style="width:100%">
+  <figcaption style="text-align:center;"> Open the lid</figcaption>
+</figure>
+<figure>
+  <img src="../_media/pro03_3d_cutter/pre_laser5.jpg" alt="Preparation step5" style="width:100%">
+  <figcaption style="text-align:center;">Moving Laser Position</figcaption>
+</figure>
+<figure>
+  <img src="../_media/pro03_3d_cutter/pre_laser6.jpg" alt="Preparation step6" style="width:100%">
+  <figcaption style="text-align:center;"> Mobile platforms for positioning 1</figcaption>
+</figure>
+<figure>
+  <img src="../_media/pro03_3d_cutter/pre_laser7.jpg" alt="Preparation step7" style="width:100%">
+  <figcaption style="text-align:center;"> Mobile platforms for positioning 2</figcaption>
+</figure>
+
 ### 1.	Draw the shape with Adobe Illustrator.
  ![Alt text](../_media/pro03_3d_cutter/ai.png)
 
@@ -113,7 +186,7 @@
 ![Alt text](../_media/pro03_3d_cutter/laser_cad2.png)
 
 ### 4.	Open the Laser cutting machine to location and border running
-![Alt text](../_media/pro03_3d_cutter/laser_cad3.png)
+![Alt text](../_media/pro03_3d_cutter/laser_cad3.jpg)
 
 ### 5.	Begin to laser cutting
 ![Alt text](../_media/pro03_3d_cutter/laser_cad4.gif)
