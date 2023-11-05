@@ -148,31 +148,31 @@
 ## Laser Cutting Practice
 ### 0. Preparation
 <figure>
-  <img src="../_media/pro03_3d_cutter/pre_laser1.jpg" alt="Preparation step1" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser1.jpg?raw=true" alt="Preparation step1" style="width:100%">
   <figcaption style="text-align:center;"> Turn on the master switch</figcaption>
 </figure>
 <figure>
-  <img src="../_media/pro03_3d_cutter/pre_laser2.jpg" alt="Preparation step2" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser2.jpg?raw=true" alt="Preparation step2" style="width:100%">
   <figcaption style="text-align:center;"> Turn on the laser</figcaption>
 </figure>
 <figure>
-  <img src="../_media/pro03_3d_cutter/pre_laser3.jpg" alt="Preparation step3" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser3.jpg?raw=true" alt="Preparation step3" style="width:100%">
   <figcaption style="text-align:center;"> Access computer</figcaption>
 </figure>
 <figure>
-  <img src="../_media/pro03_3d_cutter/pre_laser4.jpg" alt="Preparation step4" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser4.jpg?raw=true" alt="Preparation step4" style="width:100%">
   <figcaption style="text-align:center;"> Open the lid</figcaption>
 </figure>
 <figure>
-  <img src="../_media/pro03_3d_cutter/pre_laser5.jpg" alt="Preparation step5" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser5.jpg?raw=true" alt="Preparation step5" style="width:100%">
   <figcaption style="text-align:center;">Moving Laser Position</figcaption>
 </figure>
 <figure>
-  <img src="../_media/pro03_3d_cutter/pre_laser6.jpg" alt="Preparation step6" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser6.jpg?raw=true" alt="Preparation step6" style="width:100%">
   <figcaption style="text-align:center;"> Mobile platforms for positioning 1</figcaption>
 </figure>
 <figure>
-  <img src="../_media/pro03_3d_cutter/pre_laser7.jpg" alt="Preparation step7" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser7.jpg?raw=true" alt="Preparation step7" style="width:100%">
   <figcaption style="text-align:center;"> Mobile platforms for positioning 2</figcaption>
 </figure>
 
