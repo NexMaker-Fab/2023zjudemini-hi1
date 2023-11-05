@@ -221,16 +221,20 @@ self introduction
 - **Problem Description**: The image cannot be displayed in the website.
   
 - **Solution**: 
-  **1.  **Check the path of Image, and ensure the image is in the _media folder.U can use the relative path to set the image, which can be copied from the VSCode.
+  1.   Check the path of Image, and ensure the image is in the _media folder.U can use the relative path to set the image, which can be copied from the VSCode.
   ![Alt text](../_media/pro01_manage/copy_path_vscode.png)
-  **2.  **Copy the image url in the GitHub and paste it in the markdown file.
+  2.  Copy the image url in the GitHub and paste it in the markdown file.
     ![Alt text](../_media/pro01_manage/copy_img_url.png)
   
   ## Problem 2: The website cannot be updated automatically
   - **Problem Description**: The website cannot be updated automatically after pushing the code to the GitHub. In the action tap, the status of the action is failed.
   - **Solution**:
-  Click Build error to see the error message in the log. And then you can find the reason of the error. In this case, the reason is that the theme of the website is wrongly set. Check offical document to see how a theme should be set [Github pages theme](https://pages.github.com/themes/). 
-  - ![Alt text](image-2.png)
-  - ![Alt text](image-1.png)
+  Click Build error to see the error message in the log. And then you can find the reason of the error. In this case, the reason is that the theme of the website is wrongly set.  
+- ![Alt text](image-2.png)
+![Alt text](../_media/pro01_manage/error_showing.png)
+![Alt text](../_media/pro01_manage/node_error.png)
+Check offical document to see how a theme should be set [Github pages theme setting](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll). And then change the theme in the _config.yml file<br>
 
-
+    ```
+    theme: minima
+    ```
