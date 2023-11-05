@@ -188,7 +188,7 @@
 ### 4.	Open the Laser cutting machine to location and border running
 ![Alt text](../_media/pro03_3d_cutter/laser_cad3.jpg)
 
-### 5.	Begin to laser cutting
+### 5.	Begin Laser Cutting
 ![Alt text](../_media/pro03_3d_cutter/laser_cad4.gif)
 
 ### 6.	The result of laser cutting
