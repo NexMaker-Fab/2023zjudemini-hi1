@@ -84,18 +84,18 @@
 2. 3D Printing result Comparison
     ①nozzle/ platform temperature comparison
     <table align="center"><tr>
-    <td><img src="../_media/pro03_3d_cutter/3dresult1.jpg" width="300" height="200" border=0></td>
-    <td><img src="../_media/pro03_3d_cutter/3dresult2.jpg" width="300" height="200" border=0></td>
+    <td><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/3dresult1.jpg?raw=true" width="300" height="200" border=0></td>
+    <td><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/3dresult2.jpg?raw=true" width="300" height="200" border=0></td>
     </tr></table>
     ②fill density comparison
     <table align="center"><tr>
-    <td><img src="../_media/pro03_3d_cutter/3dresult3.png" width="300" height="280" border=0></td>
-    <td><img src="../_media/pro03_3d_cutter/3dresult4.png" width="350" height="280" border=0></td>
+    <td><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/3dresult3.png?raw=true" width="300" height="280" border=0></td>
+    <td><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/3dresult4.png?raw=true" width="350" height="280" border=0></td>
     </tr></table>
     ③base plate comparison
     <table align="center"><tr>
-    <td><img src="../_media/pro03_3d_cutter/3dresult5.png" width="300" height="200" border=0></td>
-    <td><img src="../_media/pro03_3d_cutter/3dresult6.jpg" width="300" height="200" border=0></td>
+    <td><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/3dresult5.png?raw=true" width="300" height="200" border=0></td>
+    <td><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/3dresult6.jpg?raw=true" width="300" height="200" border=0></td>
     </tr></table>
 **Result:** Better quality on the second print
 
