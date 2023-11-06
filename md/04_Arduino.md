@@ -192,7 +192,7 @@ void loop()
 
 ```
 
-<iframe src="//player.bilibili.com/player.html?aid=917749743&bvid=BV19u4y1Y7yd&cid=1312213218&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%"> </iframe>
+![Alt text](../_media/pro4_Arduino/running_water.gif)
 
 ## Comparison Open Source Projects similar to Our Final Project
 **Human Posture Recognition and Analysis System**
