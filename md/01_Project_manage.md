@@ -209,8 +209,17 @@ self introduction
 ...
 ```
 # How to collaborator team
-[todo]
+When add a team to a repository, can assign different roles
+- **Read**: Team members can clone the repository and pull, but not push changes.
+- **Triage**: Team members can manage issues and pull requests without access to sensitive or destructive actions.
+- **Write**: Team members can clone, pull, and push to the repository and manage issues and pull requests.
+- **Maintain**: Team members can manage the repository without access to sensitive or destructive actions.
+- **Admin**: Team members can fully manage the repository and its settings, including adding or removing collaborators and other administrative actions.
 
+In our case , we set the team as follows.
+![Alt text](../_media/pro01_manage/collaborator.jpg)
+- **Leadership and Responsibility**: The team leader likely needs administrative privileges to manage the settings of the repository, control access permissions for the team, and handle the most critical operational tasks.
+- **Contributor Permissions**: Team contributors are often given "Maintain" roles, which allow them to manage the repository in terms of its content (like handling issues, pull requests, and the project's wiki), without allowing them to change sensitive settings that could affect the repository's visibility or existence.
 # How we develop this website
 - we create a new [repository](https://github.com/wengstA/fab_hw) in the GitHub.
 - And we try to inital the docsify in the local computer. Then push the code to the GitHub. And see the website in the GitHub page.
