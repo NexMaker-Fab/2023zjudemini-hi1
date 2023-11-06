@@ -29,7 +29,7 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e1571c0510c56f181?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # 3. First Sketch
-![](../_media/pro2_CAD/sketch.jpg)
+![](../_media/pro2_CAD/first_sketch11.gif)
 # 4. Modeling Procedure
 ![step1](../_media/pro2_CAD/S1.gif)
 ![step2](../_media/pro2_CAD/S2.gif)
@@ -43,6 +43,10 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 **How To use:**
 - 1.Click the plugin button and choose the SpurGear as the plugin.
 - 2.Adjust the parameter of the plugin to make a gear.
+- 3.Adjust the parameter of the plugin to make a gear.
+- 4.The result of the gear made by plugin.
+- 5.Then, you can use the gear made by plugin for another use.
+
 ![plugin ](../_media/pro2_CAD/plugins.gif)
 ![plugin showing case](../_media/pro2_CAD/plugin_effect.gif)
 In this example, bolted connections inside the device are constructed through BOLT inserts.
@@ -56,30 +60,42 @@ In this example, bolted connections inside the device are constructed through BO
 
 # 8. Simple Parameter Design
 ![Alt text](../_media/pro2_CAD/parameter_design.jpg)
-```
-Logo(50) ;
 
-module Logo(size=50,  $fn=100) {
-    hole = size/4;
-    cylinderHeight = size * 2;
+```openscad
+// Simple Parameter Design
 
-    difference() {
-        sphere(d=size) ;
+resolution = 126; //定义多边形边的数目（参考值）
 
-        cylinder(d=hole, h=cylinderHeight, center=true);
+radius = 126;//定义多边形长轴的半径（参考值）
 
-        #rotate([90，0，01)
-        cylinder(d=hole, h=cylinderHeight, center=true);
-        rotate([0，45,0])
-        cylinder(d=hole, h=cylinderHeight, center=true);
-        }
+height = 5;//定义多边形基础高度（参考值）
+
+Message = "ZHEJIANG UNIVERSITY"; //上方文本内容
+
+To = "1897-2023    Hangzhou, China";//下方文本内容
+
+$fn = resolution;
+
+scale([1, 1]) //多边形长轴（横轴）与短轴（纵轴）的比例
+difference() {
+    cylinder(r = radius, h = 5 * height, center = true);//外圈多边形的半径、高度、中心定位
+    translate([0, -18, 5])//内圈多边形的X/Y/Z偏移定位（布尔差集）
+        cylinder(r = radius - 20, h = height + 20, center = true);//内/外圈多边形的半径、高度、中心位置关系
+}
+linear_extrude(height = height-1) {
+    translate([0, 10]) text(Message, halign = "center");//上方文本基于图形中心的定位
+    translate([0, -20]) text(To, halign = "center");//下方文本基于图形中心的定位
 }
 
-echo(version=version());
+// Written by Run Ye <runye@zju.edu.cn>
 ```
 # 9. Mechanical Drawing
-![Alt text](../_media/pro2_CAD/engineer.jpg)
-*Powered by PTC. 
+1. Generate mechanical drawing through model.
+2. Determine views according to the subject.
+3. Callout parameter.
+![Alt text](../_media/pro2_CAD/MD11.jpg)
+![Alt text](../_media/pro2_CAD/MD11.gif)
+*Powered by PTC
 
 # 10. Other CAD Software
 ## Creo Parametric：
@@ -97,7 +113,7 @@ Creo Parametric provides the broadest range of powerful yet flexible CAD 3D mode
 
 ## SolidWorks
 SolidWorks is a solid modeling computer-aided design (CAD) and computer-aided engineering (CAE) computer program that runs on Microsoft Windows. SolidWorks is published by Dassault Systèmes.
-Like that, Solidworks is also knownas "DSS Solidworks". DSS means the Dassault Systems, the developer of this CAD software. This is CADsoftware, which helps to create 2D or 3D solid models without any complexity, faster and in the costeffective way. The main advantage of the solid modeler is that very easy to use, simple graphics userinterface and much more friendly, as compared with other CAD solid modeling softwares such as Creo PTECatia etc. lt contains Solid part modeling, Assembly, Motion, Simulation, Toolbox, ToolAnalyst, CircuteWorks, PhotoView 360 ScanTo3D, e-drawings and DWG editor.
+Like that, Solidworks is also knownas "DSS Solidworks". DSS means the Dassault Systems, the developer of this CAD software. This is CADsoftware, which helps to create 2D or 3D solid models without any complexity,  and in the costeffective way. The main advantage of the solid modeler is that very easy to use, simple graphics userinterface and much more friendly, as compared with other CAD solid modeling softwares such as Creo PTECatia etc. lt contains Solid part modeling, Assembly, Motion, Simulation, Toolbox, ToolAnalyst, CircuteWorks, PhotoView 360 ScanTo3D, e-drawings and DWG editor.
 <p align="left">
   <a href="https://www.solidworks.com/" target="_blank"><img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro2_CAD/logo/solidworks.png?raw=true" alt="ptc" width="200" ></a>
   &nbsp;
