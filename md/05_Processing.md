@@ -35,7 +35,8 @@ Processing is a flexible software sketchbook and a language for learning how to 
 
 **[NodeBox](https://www.nodebox.net/)**: For those interested in generative art, NodeBox offers a way to create 2D visuals using a Python-based environment.
 # Use Processing to make a simple game
-
+## Game 1 continuous click 
+Click on the screen to start timing, in the specified time continuous click on the mouse to indicate the hit, timing can be displayed after the end of the number of consecutive hits, the color of the circle in the middle will deepen with the increase in the number of consecutive hits, the end of the round of timing click on any key to restart the game.
 ```Processing
 void setup() {
   size(300, 400);
@@ -107,6 +108,11 @@ void mouseReleased() {
   }
 }
 ```
+![Alt text](../_media/pro05_processing/game1.gif)
+## Game 2 click to jump (complex one)
+Run the program to start the game immediately, through the mouse click to make the small square jump up, if not over the obstacles means failure, the game immediately restart; small square over all the obstacles can be victory, the screen will appear "You beat the level!
+Levels are built using squares and triangles in coordinates, and you can change the style and color of the levels according to your needs.
+[Game 2 code](../_media/pro05_processing/game2.js)
 ![Alt text](../_media/pro05_processing/game2.gif)
 # Arduino and Processing
 In this work, we did one demo in Processing and Arduino, which can communicate with each other.
@@ -167,3 +173,17 @@ void draw() {
     //delay(100);
 }
 ```
+# Try to communicate with Kinect, Leapmotion, or IoT platform.
+## Kinect
+Microsoft Kinect is the next generation of Computing. 
+Kinect is a motion sensing input device by Microsoft for the Xbox 360 video game console and Windows PCs. Based around a webcam-style add-on peripheral for the Xbox 360 console, it enables users to control and interact with the Xbox 360 without the need to touch a game controller, through a natural user interface using gestures and spoken commands. [The project is aimed at broadening the Xbox 360's audience beyond its typical gamer base. Kinect competes with the Wii Remote Plus and PlayStation. Move with PlayStation Eye motion controllers for the Wii and PlayStation 3 home consoles, respectively.
+The Kinect for Windows sensor is a fully-tested and supported Kinect experience on Windows with features such as “near mode,” skeletal tracking control, API improvements, and improved USB support across a range of Windows computers and Windows-specific 10’ acoustic models.
+The sensor was specifically designed to be used with computers, and includes a shortened USB cable to ensure reliability across a broad range of computers. Kinect for Xbox 360 was built for and tested with the Xbox 360 only, not with any other platform, which is why it is not licensed for general commercial use, supported, or under warranty when used on any other platform.
+Kinect for Xbox 360, on the other hand, was built for and tested with the Xbox 360 only, not with any other platform, which is why it is not licensed for general commercial use, supported, or under warranty when used on any other platform.
+Microsoft has a large team of engineers that is dedicated to continual improvements of the hardware and software associated with Kinect for Windows, and is committed to providing ongoing access to Microsoft's deep investment in human tracking and speech recognition. But both can be used for development.
+[Refernce Website](https://learn.microsoft.com/zh-cn/windows/apps/design/devices/kinect-for-windows)
+
+## Leapmotion
+Leap Motion technology makes it possible to interact with technology using your bare hands.The company was founded in 2010 by David Holz and Michael Buckwald, and began shipping the Leap Motion Controller in July 2013.
+The Leap Motion Controller works alongside your mouse and keyboard, translating hand and finger movements into a rich array of 3D input. Developers are using the device to create everything from games, art, and music to motion-controlled robots and AR/VR experiences.
+[Website](https://developer.leapmotion.com/tracking-software-download)
