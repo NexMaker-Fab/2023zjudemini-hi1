@@ -30,23 +30,23 @@
 (nozzle temperature 200°; platform temperature30℃；fill density 15%; base plate enabled)
 
  <figure>
-  <img src="../_media/pro03_3d_cutter/para1_1.gif" alt="Slicing software import interface" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/para1_1.gif?raw=true" alt="Slicing software import interface" style="width:100%">
   <figcaption style="text-align:center;"> Slicing software import interface</figcaption>
 </figure>
 
 
  <figure>
-  <img src="../_media/pro03_3d_cutter/para1_2.jpg" alt="Slice Import Preview" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/para1_2.jpg?raw=true" alt="Slice Import Preview" style="width:100%">
   <figcaption style="text-align:center;"> Slice Import Preview</figcaption>
 </figure>
 
 <figure>
-  <img src="../_media/pro03_3d_cutter/para1_3.jpg" alt="Slice  Preview1" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/para1_3.jpg?raw=true" alt="Slice  Preview1" style="width:100%">
   <figcaption style="text-align:center;"> Slice Preview 1</figcaption>
 </figure>
 
 <figure>
-  <img src="../_media/pro03_3d_cutter/para1_4.jpg" alt="Slice  Preview2" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/para1_4.jpg?raw=true" alt="Slice  Preview2" style="width:100%">
   <figcaption style="text-align:center;"> Slice Preview 2</figcaption>
 </figure>
 
