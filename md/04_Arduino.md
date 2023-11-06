@@ -154,7 +154,7 @@ void loop() {
 
 ```
 1. **Library Inclusion:** Libraries expand the functionality of the Arduino. For instance, there are libraries for displays, sensors, motors, etc. The #include directive lets you include them.
-2. **Global Variables: **Variables declared outside of functions are global, and they can be accessed anywhere in the sketch.
+2. **Global Variables:** Variables declared outside of functions are global, and they can be accessed anywhere in the sketch.
 3. **setup() function:** This is executed once when the Arduino starts up. It's typically used for initialization tasks, like setting pin modes or starting serial communication.
 4. **loop() function:** After setup() completes, the loop() function runs repeatedly as long as the Arduino is powered. It's where the primary logic of your program will usually reside.
 5. **pinMode():** This function sets a digital pin as either INPUT or OUTPUT.
@@ -165,6 +165,7 @@ void loop() {
 Know more about Arduino programming, please refer to [Arduino Programming Turioals](https://www.arduino.cc/en/Tutorial/HomePage).
 ### Run water light program
 Produce a visual effect where LED1 (connected to pin 2) will light up first, then turn off, followed by LED2 (pin 3) lighting up and turning off, and then LED3 (pin 4) lighting up and turning off. This **sequence will repeat in a loop**, giving the appearance of a light "running" from LED1 to LED3.
+![Alt text](../_media/pro4_Arduino/connect_drawing.jpg)
 ```Arduino
 int base=2;     // Starting pin number for the LED sequence
 int count=3;    // Number of LEDs (or pins) involved in the sequence
