@@ -14,7 +14,26 @@
 
 # Introduction to Processing
 Processing is a flexible software sketchbook and a language for learning how to code. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology. There are tens of thousands of students, artists, designers, researchers, and hobbyists who use Processing for learning and prototyping.[Processing](https://processing.org/)
+## Key Features
+**Ease of Use:** Processing was designed to make it straightforward to start with programming for visual creation. It's a great introductory system for those without much prior programming experience.
+
+**Java-based:** The Processing language builds on the Java language, but uses a simplified syntax and graphics programming model.
+
+**IDE:** Processing comes with its own integrated development environment (IDE), which includes a code editor, a console, and a display window to showcase the visual output.
+
+**Community and Libraries:** t has a large community and a wide range of libraries that extend its capabilities for sound, video, hardware interaction, and more.
+
+**Export:**It allows users to export their creations as standalone applications or as Java applets for embedding in web pages (though support for Java applets has largely been dropped in modern web browsers).
 ## Similar Tools
+**[p5.js](https://p5js.org/)**: This is a JavaScript library inspired by Processing. It has similar functions and syntax but is designed for the web, enabling artists and designers to work within the context of the modern web ecosystem.
+
+**[OpenFrameworks](https://openframeworks.cc/)**: An open-source C++ toolkit designed for creative coding, similar to Processing in philosophy but offering a different syntax and set of capabilities. It is more suitable for those who have some experience with C++ or want to create more performance-intensive applications.
+
+**[Cinder](https://libcinder.org/)**: Another C++ library for creative coding, it's aimed at professionals in the field and is used for commercial-grade applications. It provides a powerful, intuitive toolbox for programming graphics, audio, video, networking, image processing, and computational geometry.
+
+**[TouchDesigner](https://derivative.ca/)**: A node-based visual programming language for real-time interactive multimedia content, TouchDesigner is designed for both artists and professionals to create rich interactive experiences.
+
+**[NodeBox](https://www.nodebox.net/)**: For those interested in generative art, NodeBox offers a way to create 2D visuals using a Python-based environment.
 # Use Processing to make a simple game
 
 ```Processing
