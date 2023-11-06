@@ -14,7 +14,7 @@
 
 # Introduction to Processing
 Processing is a flexible software sketchbook and a language for learning how to code. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology. There are tens of thousands of students, artists, designers, researchers, and hobbyists who use Processing for learning and prototyping.[Processing](https://processing.org/)
-
+## Similar Tools
 # Use Processing to make a simple game
 
 ```Processing
@@ -88,7 +88,7 @@ void mouseReleased() {
   }
 }
 ```
-
+![Alt text](../_media/pro05_processing/game2.gif)
 # Arduino and Processing
 In this work, we did one demo in Processing and Arduino, which can communicate with each other.
 Potentiometer controls the size of circle in Processing. This case is based on the Potentiometer, and the circle in Processing is controlled to change size from small to big through arduino output signal, so as to realize the interaction between software.
