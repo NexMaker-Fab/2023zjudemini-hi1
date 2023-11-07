@@ -61,9 +61,9 @@ The other styles place symbols at each cell location. For example, selecting the
 ![final_effect](../_media/pro2_CAD/CAD-FINAL.gif)
 
 # 7. Joint
-<!-- add a gif named joint11.gif -->
 ![Alt text](../_media/pro2_CAD/joint11.gif)
-![Alt text](../_media/pro2_CAD/joint_effect11.gif)
+![Alt text](../_media/pro2_CAD/joint_effect11.jpg)
+Use Joint command to joint two part together. A case in point is Rigid. Rigid locks components together, removing all degrees of freedom. 
 # 8. Simple Parameter Design
 ![Alt text](../_media/pro2_CAD/parameter_design.jpg)
 
