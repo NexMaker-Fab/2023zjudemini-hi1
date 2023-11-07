@@ -139,6 +139,7 @@ The bundled laser beam only heats up the material locally, and the rest of the w
  <figure>
   <img src="../_media/pro03_3d_cutter/laser_cutting2.png" alt="Slicing software import interface" style="width:100%">
   <figcaption style="text-align:center;">Discover the variety of different cutting procedures</figcaption>
+</figure>
 
 ## Cutting-edge research on laser cutting
 ### 1. Flame cutting
@@ -206,6 +207,17 @@ cardboard, or foam
   <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser3.jpg?raw=true" alt="Preparation step3" style="width:100%">
   <figcaption style="text-align:center;"> Access computer</figcaption>
 </figure>
+
+
+<figure>
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/laser_cad6.jpg?raw=true" alt="Preparation step4" style="width:100%">
+   <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/laser_cad7.jpg?raw=true" alt="Preparation step4" style="width:100%">
+    <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/laser_cad8.jpg?raw=true" alt="Preparation step4" style="width:100%">
+    <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/laser_cad9.jpg?raw=true" alt="Preparation step4" style="width:100%">
+    <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/laser_cad10.jpg?raw=true" alt="Preparation step4" style="width:100%">
+  <figcaption style="text-align:center;"> Transport Data</figcaption>
+</figure>
+
 <figure>
   <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser4.jpg?raw=true" alt="Preparation step4" style="width:100%">
   <figcaption style="text-align:center;"> Open the lid</figcaption>
