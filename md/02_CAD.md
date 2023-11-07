@@ -52,7 +52,7 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 In this example, bolted connections inside the device are constructed through BOLT inserts.
 # 6. Motion Animation Procedure
 ![step7](../_media/pro2_CAD/S7.gif)
-![final_effect](../_media/pro2_CAD/final_effect.gif)
+![final_effect](../_media/pro2_CAD/CAD-FINAL.gif)
 
 # 7. Joint
 ![Alt text](../_media/pro2_CAD/joint.gif)
