@@ -38,26 +38,32 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 ![step5](../_media/pro2_CAD/S5.gif)
 ![step6](../_media/pro2_CAD/S6.gif)
 # 5. The plugin of the Fusion 360
-**BOLT** is a plug-in in Fusion 360 that can construct bolts inside the model by customizing parameters.
+Voronoi Sketch Generator is an Autodesk® Fusion 360™ add-in for generating Voronoi diagrams. Once created, a Voronoi diagram is inserted into a sketch and then may be used for creating or modifying models.
+It's possible to select an existing sketch, a sketch profile, or one of the (XY, XZ, YZ) construction planes as the target of the generated diagram. When a sketch profile is selected, it will be used to define the bounds and to clip the generated diagram.
+Several styles of Voronoi diagrams may be created. Each cell in a diagram has an outer edge. The "edge style" may be specified as "Curves" or "Straight". Selecting one of these styles will create a familiar style of Voronoi diagram.
+The other styles place symbols at each cell location. For example, selecting the "Triangle" style will place a triangle at each cell location. Note that this is still an experimental feature and being refined.
+[autodesk website](https://apps.autodesk.com/FUSION/en/Detail/Index?id=1006119760063675415&os=Win64&appLang=en)
 
-**How To use:**
-- 1.Click the plugin button and choose the SpurGear as the plugin.
-- 2.Adjust the parameter of the plugin to make a gear.
-- 3.Adjust the parameter of the plugin to make a gear.
-- 4.The result of the gear made by plugin.
-- 5.Then, you can use the gear made by plugin for another use.
-
-![plugin ](../_media/pro2_CAD/plugins.gif)
-![plugin showing case](../_media/pro2_CAD/plugin_effect.gif)
-In this example, bolted connections inside the device are constructed through BOLT inserts.
+## How to use:
+1)Run the Voronoi Sketch Generator.
+2)Select construction plane, width and height, for sketch or profile.
+3)Set cell style, cell count, cell scale and relaxation.
+4)Publish to Fusion 360.
+5)Generate and create.
+![alt text](../_media/pro2_CAD/plugin111.jpg)
+![alt text](../_media/pro2_CAD/plugin112.jpg)
+![alt text](../_media/pro2_CAD/plugin113.jpg)
+![alt text](../_media/pro2_CAD/plugin114.jpg)
+![alt text](../_media/pro2_CAD/plugin115.jpg)
+![alt text](../_media/pro2_CAD/plugin116.jpg)
 # 6. Motion Animation Procedure
 ![step7](../_media/pro2_CAD/S7.gif)
 ![final_effect](../_media/pro2_CAD/CAD-FINAL.gif)
 
 # 7. Joint
-![Alt text](../_media/pro2_CAD/joint.gif)
-*Powered by PTC. 
-
+<!-- add a gif named joint11.gif -->
+![Alt text](../_media/pro2_CAD/joint11.gif)
+![Alt text](../_media/pro2_CAD/joint_effect11.gif)
 # 8. Simple Parameter Design
 ![Alt text](../_media/pro2_CAD/parameter_design.jpg)
 
