@@ -223,7 +223,7 @@ cardboard, or foam
   <figcaption style="text-align:center;"> Open the lid</figcaption>
 </figure>
 <figure>
-  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/pre_laser5.jpg?raw=true" alt="Preparation step5" style="width:100%">
+  <img src="../_media/pro03_3d_cutter/laser_cad3.jpg" alt="Preparation step5" style="width:100%">
   <figcaption style="text-align:center;">Moving Laser Position</figcaption>
 </figure>
 <figure>
