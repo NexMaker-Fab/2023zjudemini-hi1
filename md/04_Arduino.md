@@ -253,6 +253,7 @@ pip install python-opencv
 4. **Target Coordinates**: Sets target coordinates **`TARGET_X`** and **`TARGET_Y`** for a tracking mechanism.
 5. **GPIO Setup**: Configures Raspberry Pi's GPIO settings.
 6. **Face Detection and Center Calculation**: The function **`get_center`** processes each camera frame to detect faces and calculates the center of the largest face detected. The detected face is highlighted with a rectangle, and its center is marked.
+
 ```Python
 import numpy as np
 import cv2
