@@ -254,6 +254,8 @@ pip install python-opencv
 5. **GPIO Setup**: Configures Raspberry Pi's GPIO settings.
 6. **Face Detection and Center Calculation**: The function **`get_center`** processes each camera frame to detect faces and calculates the center of the largest face detected. The detected face is highlighted with a rectangle, and its center is marked.
 
+[Face Detection Code](face_detection.py)
+
 ```Python
     import numpy as np
     import cv2
@@ -262,25 +264,18 @@ pip install python-opencv
     import RPi.GPIO as GPIO
     import Adafruit_PCA9685
     import threading
-
     servo_pwm = Adafruit_PCA9685.PCA9685()
-
     def set_servo_angle(channel,angle):
         angle=4096*((angle*11)+500)/20000
         servo_pwm.set_pwm(channel,0,int(angle))
-
-    set_servo_angle(3,90)
-        
+    set_servo_angle(3,90) 
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
-
     cap = cv2.VideoCapture(0)
     cap.set(cv2.CAP_PROP_FRAME_WIDTH,800)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT,500)
-
     TARGET_X = 400
     TARGET_Y = 250
-
     GPIO.setwarnings(False)
     GPIO.setmode(GPIO.BCM)
 
@@ -346,6 +341,5 @@ pip install python-opencv
     finally:
         GPIO.cleanup()
         cap.release()
-        cv2.destroyAllWindows()
-                    
+        cv2.destroyAllWindows()                 
 ```
