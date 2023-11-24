@@ -215,3 +215,139 @@ void loop()
 1 The product has high space requirements and needs to be built on a professional site to be used
 2 The sensitivity of human posture recognition is low, and real-time recognition is not possible.
 3 Large-scale equipment is not easy to carry and maintain, which increases maintenance costs and is not conducive to green and sustainable development.
+
+# Using Raspberry Pi to detect human posture
+We use Python and openCV to detect human posture. The following is the process of using Raspberry Pi to detect human posture.We impelete face tracking using a camera attached to a Raspberry Pi, when the face is detected, the camera will track the face and if the center of the face is not in the center of the camera, the camera will  move the servo motor.
+## What is Raspberry Pi?
+Raspberry Pi is the name of a series of single-board computers made by the Raspberry Pi Foundation, a UK charity that aims to educate people in computing and create easier access to computing education.
+![Alt text](../_media/pro4_Arduino/rasperberry.png)
+
+[Raspberry Pi vs Arduino](https://realpython.com/python-raspberry-pi/#raspberry-pi-vs-arduino)
+
+## Set up Raspberry Pi
+1. **[Prepare the SD Card](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2)**:Download the Raspberry Pi OS (formerly known as Raspbian) or any other compatible operating system from the official Raspberry Pi website.
+2. **Insert the SD Card**: Begin by inserting your preloaded SD card into your Raspberry Pi.
+3. **Connect to a Display**: Connect your Raspberry Pi to a monitor or TV using an HDMI cable.
+4. **Power Up**: Connect the power supply to your Raspberry Pi to turn it on.
+5. **Access the Raspberry Pi Configuration Tool**: Once the Raspberry Pi boots up, open the terminal and access the Raspberry Pi Configuration Tool by typing **`sudo raspi-config`**.
+6. **Navigate to Network Options**: In the configuration tool, navigate to the 'Network Options' menu.
+7. **[Set Up WiFi](https://raspberrytips.com/raspberry-pi-wifi-setup/)**: Choose the 'Wi-Fi' option and enter the relevant details like your country, WiFi network name (SSID), and password.
+8. **Enable SSH (Optional)**: For remote access, you can enable SSH from the 'Interfacing Options' in the configuration tool.
+9. **Finish and Reboot**: After setting up your WiFi details, exit the configuration tool and choose to reboot your Raspberry Pi.
+10. **Check Connectivity**: Once your Raspberry Pi restarts, you can check if it's connected to WiFi by looking at the network icon on the desktop or by using the command **`ifconfig`** in the terminal to see your network status.
+
+##  Set up Python  and Opencv Environment in Rasperberry Pi
+The project is based on the Python language, so we need to install the Python environment in the Raspberry Pi. Besides, we need to install the opencv library in the Raspberry Pi. The following is the installation process of the opencv library and Python environment in the Raspberry Pi.
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install python3
+sudo apt install python3-pip
+pip install python-opencv
+```
+
+## Python-Opencv code 
+1. **Servo Motor Control**: It initializes a **`PCA9685`** object and defines a function **`set_servo_angle`** to control the angle of a servo motor connected to a specific channel of the PCA9685 module.
+2. **Face and Eye Detection Setup**: It loads Haar cascade classifiers for detecting faces and eyes from OpenCV.
+3. **Camera Initialization**: It initializes a camera feed and sets the frame dimensions.
+4. **Target Coordinates**: Sets target coordinates **`TARGET_X`** and **`TARGET_Y`** for a tracking mechanism.
+5. **GPIO Setup**: Configures Raspberry Pi's GPIO settings.
+6. **Face Detection and Center Calculation**: The function **`get_center`** processes each camera frame to detect faces and calculates the center of the largest face detected. The detected face is highlighted with a rectangle, and its center is marked.
+```Python
+import numpy as np
+import cv2
+import os
+import time  
+import RPi.GPIO as GPIO
+import Adafruit_PCA9685
+import threading
+
+
+servo_pwm = Adafruit_PCA9685.PCA9685()
+
+def set_servo_angle(channel,angle):
+    angle=4096*((angle*11)+500)/20000
+    servo_pwm.set_pwm(channel,0,int(angle))
+
+set_servo_angle(3,90)
+    
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+
+cap = cv2.VideoCapture(0)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH,800)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT,500)
+
+TARGET_X = 400
+TARGET_Y = 250
+
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+
+
+def get_center(frame):
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.2, minNeighbors=5, minSize=(30, 30))
+    if len(faces) > 0:
+        max_area = 0
+        max_face = faces[0]
+        for face in faces:
+            (x, y, w, h) = face
+            area = w * h
+            if area > max_area:
+                max_area = area
+                max_face = face
+        (x, y, w, h) = max_face
+        center_x = x + w // 2
+        center_y = y + h // 2
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+        cv2.circle(frame, (center_x, center_y), 5, (0, 0, 255), -1)
+        return (center_x, center_y)
+    else:
+        return None
+    
+def get_center_threaded(frame, result):   
+    center = get_center(frame)
+    result['center'] = center
+    #print('true')
+
+
+try:
+    while True:
+        ret, frame = cap.read()
+        frame = cv2.flip(frame, 180)
+        if not ret:
+            break
+        center = get_center(frame)
+        # 创建一个字典来存储线程结果
+        center_result = {}
+        # 启动线程来执行get_center函数
+        threading.Thread(target=get_center_threaded, args=(frame, center_result)).start()
+
+        cv2.imshow('frame', frame)
+        #if 'center' in center_result:
+            #center = center_result['center']
+        if center is not None:
+            (x, y) = center
+            x_diff = x - TARGET_X
+            y_diff = y - TARGET_Y
+            print('x_diff')
+            if abs(x_diff) > 100:
+                set_servo_angle(3,0)
+                #time.sleep(3)
+                    
+            else :
+                set_servo_angle(3,90)
+                
+        else:
+            set_servo_angle(3,90)           
+        
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+finally:
+    GPIO.cleanup()
+    cap.release()
+    cv2.destroyAllWindows()
+                    
+```
