@@ -247,3 +247,38 @@ Check offical document to see how a theme should be set [Github pages theme sett
     ```
     theme: minima
     ```
+
+# Full Code of index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fivevolution</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Our Space',
+      repo: '',
+      loadSidebar: true,  //prepare for sidebar
+      loadNavbar: true,   //prepare for navbar
+      coverpage: true,
+      subMaxLevel: 3, // 生成目录的最大层级
+      search: 'auto',
+      placeholder: 'Search',
+      noData: 'No Results!',
+      depth: 3,
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
+```
