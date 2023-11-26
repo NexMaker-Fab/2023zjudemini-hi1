@@ -195,7 +195,6 @@ cardboard, or foam
 
 ## Laser Cutting Practice
 ### 0. Preparation
-![Alt text](../_media/pro03_3d_cutter/image-4.png)
 <figure>
   <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/image-4.png?raw=true" alt="Preparation step1" style="width:100%">
   <figcaption style="text-align:center;"> Turn on the master switch</figcaption>
@@ -257,3 +256,19 @@ cardboard, or foam
 
 ### 6.	The result of laser cutting
 ![Alt text](../_media/pro03_3d_cutter/laser_cad5.jpg)
+
+## Raspberry Pi meets laser cutting
+1 Design of parts drawings
+ ![Alt text](../_media/pro03_3d_cutter/image-4.png)
+2 Importing a design to start laser cutting
+ ![Alt text](../_media/pro03_3d_cutter/image-5.png)
+3 Laser cutting process
+![Alt text](../_media/pro03_3d_cutter/image-6.png)
+4 Laser cutting results
+![Alt text](../_media/pro03_3d_cutter/image-7.png)
+5 Assembly with Raspberry Pi
+ ![Alt text](../_media/pro03_3d_cutter/image-8.png)
+6 Assembly results
+ ![Alt text](../_media/pro03_3d_cutter/image-9.png)
+7 Details
+![Alt text](../_media/pro03_3d_cutter/image-10.png)
