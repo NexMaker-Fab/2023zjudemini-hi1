@@ -32,6 +32,10 @@ This design is an interactive turntable structure, which can be applied to the d
 # 3. First Sketch
 ![](../_media/pro2_CAD/first_sketch11.gif)
 # 4. Modeling Procedure
+1. Original sketch; 
+2. Modeling and design of basic components; 
+3. Component assembly; 
+4. Motion simulation
 ![step1](../_media/pro2_CAD/S1.gif)
 ![step2](../_media/pro2_CAD/S2.gif)
 ![step3](../_media/pro2_CAD/S3.gif)
