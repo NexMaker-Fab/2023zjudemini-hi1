@@ -56,15 +56,21 @@ The other styles place symbols at each cell location. For example, selecting the
 ![alt text](../_media/pro2_CAD/plugin114.jpg)
 ![alt text](../_media/pro2_CAD/plugin115.jpg)
 ![alt text](../_media/pro2_CAD/plugin116.jpg)
-# 6. Motion Animation Procedure
-![step7](../_media/pro2_CAD/S7.gif)
-![final_effect](../_media/pro2_CAD/CAD-FINAL.gif)
-
-# 7. Joint
+### Application
+With this plug-in, small bumps of other materials can be quickly added to the smooth surface, increasing the stability of the mechanical structure when rotating.
+![alt text](../_media/pro2_CAD/plugin117.jpg)
+# 6. Joint
 ![Alt text](../_media/pro2_CAD/joint11.gif)
 ![Alt text](../_media/pro2_CAD/joint_effect11.jpg)
 Use Joint command to joint two part together. A case in point is Rigid. Rigid locks components together, removing all degrees of freedom. 
+
+# 7. Motion Animation Procedure
+![step7](../_media/pro2_CAD/S7.gif)
+![final_effect](../_media/pro2_CAD/CAD-FINAL.gif)
+
 # 8. Simple Parameter Design
+[OpenSCAD](https://openscad.org/) is software for creating solid 3D CAD objects.
+
 ![Alt text](../_media/pro2_CAD/parameter_design.jpg)
 
 ```openscad
@@ -99,9 +105,10 @@ linear_extrude(height = height-1) {
 1. Generate mechanical drawing through model.
 2. Determine views according to the subject.
 3. Callout parameter.
+4. ![Alt text](../_media/pro2_CAD/MD11.gif)
 ![Alt text](../_media/pro2_CAD/MD11.jpg)
-![Alt text](../_media/pro2_CAD/MD11.gif)
-*Powered by PTC
+
+
 
 # 10. Other CAD Software
 ## Creo Parametric：
