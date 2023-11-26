@@ -25,6 +25,7 @@ Fusion 360 is a cloud-based 3D modelling, CAD, CAM, CAE and PCB software platfor
 
 
 # 2. Modeling Showcase
+This design is an interactive turntable structure, which can be applied to the design of rotary displacement products and children's mechanical cognitive products in the future.
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e0c8b0367f72629bd?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e1571c0510c56f181?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
