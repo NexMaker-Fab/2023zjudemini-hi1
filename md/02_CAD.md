@@ -71,7 +71,7 @@ Use Joint command to joint two part together. A case in point is Rigid. Rigid lo
 
 # 7. Motion Animation Procedure
 ![step7](../_media/pro2_CAD/S7.gif)
-![final_effect](../_media/pro2_CAD/CAD-FINAL.gif)
+![final_effect](../_media/pro2_CAD/1127-2.gif)
 
 # 8. Simple Parameter Design
 [OpenSCAD](https://openscad.org/) is software for creating solid 3D CAD objects.
