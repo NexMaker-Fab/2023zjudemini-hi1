@@ -1,3 +1,12 @@
+<style>
+    img {
+    width: 80%; /* 设置图片宽度 */
+    height: auto; /* 保持图片的纵横比 */
+    display: block; /* 使图片成为块级元素 */
+    margin-left: auto; /* 与右边距一起工作以居中图片 */
+    margin-right: auto;
+}
+</style>
 # Project Theme & Background
 **POS-REMINDER:** Intelligent desktop interactive device for sitting health
 
@@ -7,6 +16,7 @@ To solve these problems, we designed a desktop interactive device to remind user
 # User Research
 ## I. Introduction
 ![Alt text](image-4.png)
+
 The exact definition of a sedentary lifestyle is when someone spends six or more hours per day sitting or lying down, and they lack significant physical movement in their daily life.
 ![Alt text](image-5.png)
 ## II. What are some diseases caused by sedentary behavior?
