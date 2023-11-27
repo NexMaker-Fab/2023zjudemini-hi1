@@ -196,7 +196,7 @@ cardboard, or foam
 ## Laser Cutting Practice
 ### 0. Preparation
 <figure>
-  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/image-4.png?raw=true" alt="Preparation step1" style="width:100%">
+  <img src="https://github.com/NexMaker-Fab/2023zjudemini-hi1/blob/main/_media/pro03_3d_cutter/image-0.png?raw=true" alt="Preparation step1" style="width:100%">
   <figcaption style="text-align:center;"> Turn on the master switch</figcaption>
 </figure>
 <figure>
