@@ -118,7 +118,8 @@ Using tfjs-models-pose-detection, developers can easily integrate pose detection
 ![Alt text](image-21.png)
 
 ### 2. Raspberry Pi 4B
-Why did we choose it?
+![Alt text](image-23.png)
+**Why did we choose it?**
 Compared to other microcontrollers, the Raspberry Pi 4B has several advantages. Here are some of them:
 
 **1.Powerful processing power:** The Raspberry Pi 4B is equipped with a quad-core ARM Cortex-A72 processor, which provides much more powerful processing capabilities than many other microcontrollers. This allows the Raspberry Pi 4B to handle more complex tasks, such as running high-performance software or even operating as a server.
@@ -130,3 +131,4 @@ Compared to other microcontrollers, the Raspberry Pi 4B has several advantages. 
 **4.Community support:** The Raspberry Pi has a large community of users and developers, which means that you can find help and resources online easily. There are also many tutorials, case studies, and projects available for the Raspberry Pi 4B, making it easier for new users to get started.
 
 In summary, the Raspberry Pi 4B has powerful processing capabilities, easy programming, flexible expansion options, and excellent community support, which make it a versatile and popular microcontroller for various applications.
+![Alt text](image-22.png)
