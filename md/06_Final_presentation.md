@@ -118,6 +118,9 @@ Using tfjs-models-pose-detection, developers can easily integrate pose detection
 ![Alt text](image-21.png)
 
 ### 2. Raspberry Pi 4B
+![Alt text](image-24.png)
+
+
 ![Alt text](image-23.png)
 **Why did we choose it?**
 Compared to other microcontrollers, the Raspberry Pi 4B has several advantages. Here are some of them:
@@ -142,3 +145,22 @@ In summary, the Raspberry Pi 4B has powerful processing capabilities, easy progr
 
 
 Code is avalible on [Github](https://github.com/NexMaker-Fab/2023zjudemini-hi1/tree/main/md/final_code)
+
+## II. SDGs Analysis on Our Work
+### 1. Goal 3: GOOD HEALTH AND WELL-BEING
+![Alt text](image-25.png)
+Maintaining good posture while seated is crucial for maintaining good health. Holding an incorrect sitting posture for prolonged periods can lead to various health issues, including back pain, neck pain, and muscle strain. POS-REMINDER: Intelligent desktop interactive device for sitting health, therefore, plays a crucial role in reminding you to correct your sitting posture and prevent these health issues.The device's ability to remind users of their incorrect sitting posture can also help reduce the stress and fatigue that can be caused by prolonged sitting. By correcting your posture, you can improve your overall comfort and increase your energy levels, leading to better overall well-being.
+Additionally, POS-REMINDER can help increase productivity by reducing distractions caused by pain or discomfort. By maintaining a healthy sitting posture, you can focus more effectively on your work and increase your overall efficiency. 
+
+### 2. Goal 7: AFFORDABLE AND CLEAN ENERGY
+![alt text](image-26.png)
+POS-REMINDER is USB-powered. The device’s USB power source can be connected to almost any computer, which means that the user can take advantage of the power already provided, eliminating the need for any additional power source. This significantly reduces the overall cost of ownership since computers are already a common workplace resource. The device’s low-power consumption also ensures that it won’t drain the computer’s battery, making it an eco-friendly solution.
+Since the device runs on USB power, it doesn’t require any batteries or additional power sources, reducing the environmental impact of battery disposal. This makes it an environmentally friendly solution, promoting the use of clean energy without adding any extra burden to the environment.
+
+### 3. Goal 9: INDUSTRY, INNOVATION AND INFRASTRUCTURE
+![Alt text](image-27.png)
+POS-REMINDER can be used in various industries, including the healthcare, technology, and even the manufacturing sectors. It provides a useful tool for employees to maintain good posture while working, reducing the risk of musculoskeletal disorders and improving overall health and well-being. This can lead to increased productivity and efficiency within the workplace.
+POS-REMINDER showcases the innovative thinking behind its design. By combining the latest technology to monitor posture with a USB-powered system, it offers a sustainable and eco-friendly solution. The use of innovative technology not only improves our ability to monitor and manage our posture but also highlights the potential for innovation within the field of healthcare and well-being.
+Additionally, POS-REMINDER can be considered as an extension of the digital infrastructure that is becoming more prevalent in today's society. Its integration creates a seamless user experience, enabling individuals to benefit from its features without any additional setup or costs.
+
+### 4. Goal 12: RESPONSIBLE CONSUMPTION AND PRODUCTION
