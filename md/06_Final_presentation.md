@@ -132,3 +132,8 @@ Compared to other microcontrollers, the Raspberry Pi 4B has several advantages. 
 
 In summary, the Raspberry Pi 4B has powerful processing capabilities, easy programming, flexible expansion options, and excellent community support, which make it a versatile and popular microcontroller for various applications.
 ![Alt text](image-22.png)
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zYwPO8zztNA?si=RZqcRBMturZ99ctS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
