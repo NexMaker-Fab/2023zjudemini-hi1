@@ -134,9 +134,30 @@ Compared to other microcontrollers, the Raspberry Pi 4B has several advantages. 
 **4.Community support:** The Raspberry Pi has a large community of users and developers, which means that you can find help and resources online easily. There are also many tutorials, case studies, and projects available for the Raspberry Pi 4B, making it easier for new users to get started.
 
 In summary, the Raspberry Pi 4B has powerful processing capabilities, easy programming, flexible expansion options, and excellent community support, which make it a versatile and popular microcontroller for various applications.
+
+
+##	Design & Prototyping Process
 ![Alt text](image-22.png)
 
+1.model slice
+![Alt text](image-29.png)
 
+2.3D printing
+![Alt text](image-31.png)
+
+3.laser cutting
+![Alt text](image-30.png)
+
+4.assembling
+![Alt text](image-32.png)
+
+5.coding & testing
+![Alt text](image-33.png)
+
+6.final testing
+![Alt text](test1.gif)
+![Alt text](test2.gif)
+![Alt text](test3.gif)
 
 <iframe width="800" height="350" src="https://www.youtube.com/embed/zYwPO8zztNA?si=RZqcRBMturZ99ctS" align="center" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -164,3 +185,5 @@ POS-REMINDER showcases the innovative thinking behind its design. By combining t
 Additionally, POS-REMINDER can be considered as an extension of the digital infrastructure that is becoming more prevalent in today's society. Its integration creates a seamless user experience, enabling individuals to benefit from its features without any additional setup or costs.
 
 ### 4. Goal 12: RESPONSIBLE CONSUMPTION AND PRODUCTION
+![Alt text](image-28.png)
+POS-REMINDER aligns with the principles of responsible consumption and production. It encourages users to adopt healthier posture habits, reducing the potential for health issues while seated. Additionally, the device’s eco-friendly design promotes sustainable production methods that prioritize environmental protection and resource efficiency. Through its integration with responsible consumption and production practices, the device plays a role in promoting a healthier and more sustainable lifestyle.
