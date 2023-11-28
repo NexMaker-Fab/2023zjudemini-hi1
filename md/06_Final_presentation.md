@@ -157,9 +157,8 @@ In summary, the Raspberry Pi 4B has powerful processing capabilities, easy progr
 ![Alt text](image-33.png)
 
 6.final testing
-![Alt text](test1.gif)
-![Alt text](test2.gif)
-![Alt text](test3.gif)
+![Alt text](tests1.gif)
+![Alt text](tests2.gif)
 
 <iframe width="800" height="350" src="https://www.youtube.com/embed/zYwPO8zztNA?si=RZqcRBMturZ99ctS" align="center" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
